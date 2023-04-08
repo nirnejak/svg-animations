@@ -52,7 +52,7 @@ const Sharing: React.FC = () => {
       >
         <g filter="url(#filter0_d_790_3637)">
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={backgroundVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 0.2 }}
@@ -63,7 +63,7 @@ const Sharing: React.FC = () => {
             fill="white"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={sector1Variants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -71,7 +71,7 @@ const Sharing: React.FC = () => {
             fill="#E4F9F4"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={sector2Variants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -79,7 +79,7 @@ const Sharing: React.FC = () => {
             fill="#00D09F"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={sector3Variants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -87,7 +87,7 @@ const Sharing: React.FC = () => {
             fill="#E4F9F4"
           />
           <motion.circle
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -97,7 +97,7 @@ const Sharing: React.FC = () => {
             fill="#F1F1F1"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -105,7 +105,7 @@ const Sharing: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 0.9 }}
@@ -113,7 +113,7 @@ const Sharing: React.FC = () => {
             fill="#00D09F"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 0.9 }}
@@ -121,7 +121,7 @@ const Sharing: React.FC = () => {
             fill="#00D09F"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 0.9 }}
@@ -131,7 +131,7 @@ const Sharing: React.FC = () => {
             strokeWidth="2"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 0.9 }}
@@ -139,7 +139,7 @@ const Sharing: React.FC = () => {
             fill="#00D09F"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 0.9 }}
@@ -151,7 +151,7 @@ const Sharing: React.FC = () => {
             fill="#DDDDDD"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 0.9 }}
@@ -159,7 +159,7 @@ const Sharing: React.FC = () => {
             fill="#DDDDDD"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 0.9 }}
@@ -172,7 +172,7 @@ const Sharing: React.FC = () => {
         </g>
         <g filter="url(#filter1_d_790_3637)">
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={backgroundVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.8 }}
@@ -184,7 +184,7 @@ const Sharing: React.FC = () => {
             fill="white"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={backgroundVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 3.7 }}
@@ -196,7 +196,7 @@ const Sharing: React.FC = () => {
             fill="#F1F1F1"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 4.3 }}
@@ -208,7 +208,7 @@ const Sharing: React.FC = () => {
             fill="#F1F1F1"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 4.3 }}
@@ -220,7 +220,7 @@ const Sharing: React.FC = () => {
             fill="#F1F1F1"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 4.3 }}
@@ -232,7 +232,7 @@ const Sharing: React.FC = () => {
             fill="#F1F1F1"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 4.3 }}
@@ -244,7 +244,7 @@ const Sharing: React.FC = () => {
             fill="#F1F1F1"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 4.3 }}
@@ -256,7 +256,7 @@ const Sharing: React.FC = () => {
             fill="#F1F1F1"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 4.3 }}
@@ -268,7 +268,7 @@ const Sharing: React.FC = () => {
             fill="#F1F1F1"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 4.3 }}
@@ -280,7 +280,7 @@ const Sharing: React.FC = () => {
             fill="#F1F1F1"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 4.3 }}
@@ -292,7 +292,7 @@ const Sharing: React.FC = () => {
             fill="#F1F1F1"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={sector1Variants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 3.3 }}
@@ -300,7 +300,7 @@ const Sharing: React.FC = () => {
             fill="#E4F9F4"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={sector2Variants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 3.3 }}
@@ -308,7 +308,7 @@ const Sharing: React.FC = () => {
             fill="#00D09F"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={sector3Variants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 3.3 }}
@@ -316,7 +316,7 @@ const Sharing: React.FC = () => {
             fill="#E4F9F4"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 4 }}
@@ -328,7 +328,7 @@ const Sharing: React.FC = () => {
             fill="#DDDDDD"
           />
           <motion.circle
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 4 }}
@@ -338,7 +338,7 @@ const Sharing: React.FC = () => {
             fill="#DDDDDD"
           />
           <motion.circle
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 4 }}
@@ -348,7 +348,7 @@ const Sharing: React.FC = () => {
             fill="#DDDDDD"
           />
           <motion.circle
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 4 }}
@@ -358,7 +358,7 @@ const Sharing: React.FC = () => {
             fill="#DDDDDD"
           />
           <motion.circle
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 4 }}
@@ -369,7 +369,7 @@ const Sharing: React.FC = () => {
           />
         </g>
         <motion.path
-          initial={"hidden"}
+          initial={"visible"}
           animate={controls}
           variants={contentVariants}
           transition={{ duration: 0.3, ease: "easeOut", delay: 2.4 }}

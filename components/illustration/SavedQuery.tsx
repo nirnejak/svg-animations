@@ -42,7 +42,7 @@ const SavedQuery: React.FC = () => {
       >
         <g filter="url(#filter0_d_631_1353)">
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={backgroundVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 0.2 }}
@@ -53,7 +53,7 @@ const SavedQuery: React.FC = () => {
             fill="white"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1.7 }}
@@ -61,7 +61,7 @@ const SavedQuery: React.FC = () => {
             fill="black"
           />
           <motion.line
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={lineVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1 }}
@@ -73,7 +73,7 @@ const SavedQuery: React.FC = () => {
             strokeWidth="0.2"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1.7 }}
@@ -81,7 +81,7 @@ const SavedQuery: React.FC = () => {
             fill="black"
           />
           <motion.line
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={lineVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1 }}
@@ -93,7 +93,7 @@ const SavedQuery: React.FC = () => {
             strokeWidth="0.2"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1.7 }}
@@ -101,7 +101,7 @@ const SavedQuery: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1.7 }}
@@ -109,7 +109,7 @@ const SavedQuery: React.FC = () => {
             fill="black"
           />
           <motion.line
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={lineVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1 }}
@@ -122,7 +122,7 @@ const SavedQuery: React.FC = () => {
           />
           <g filter="url(#filter1_d_631_1353)">
             <motion.rect
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.4, ease: "easeOut", delay: 2 }}
@@ -134,7 +134,7 @@ const SavedQuery: React.FC = () => {
               fill="white"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 2.3 }}
@@ -143,7 +143,7 @@ const SavedQuery: React.FC = () => {
             />
           </g>
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1.7 }}
@@ -151,7 +151,7 @@ const SavedQuery: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1.7 }}
@@ -160,7 +160,7 @@ const SavedQuery: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1.7 }}
@@ -169,7 +169,7 @@ const SavedQuery: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1.7 }}
@@ -178,7 +178,7 @@ const SavedQuery: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1.7 }}
@@ -187,7 +187,7 @@ const SavedQuery: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1.7 }}
@@ -196,7 +196,7 @@ const SavedQuery: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.3 }}
@@ -206,7 +206,7 @@ const SavedQuery: React.FC = () => {
         </g>
         <g filter="url(#filter2_d_631_1353)">
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={backgroundVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 3.1 }}
@@ -218,7 +218,7 @@ const SavedQuery: React.FC = () => {
             fill="white"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 3.8 }}
@@ -226,7 +226,7 @@ const SavedQuery: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 3.8 }}
@@ -234,7 +234,7 @@ const SavedQuery: React.FC = () => {
             fill="black"
           />
           <motion.line
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={lineVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 3.5 }}
@@ -246,7 +246,7 @@ const SavedQuery: React.FC = () => {
             strokeWidth="0.2"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 3.8 }}
@@ -255,7 +255,7 @@ const SavedQuery: React.FC = () => {
           />
         </g>
         <motion.path
-          initial={"hidden"}
+          initial={"visible"}
           animate={controls}
           variants={contentVariants}
           transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -263,7 +263,7 @@ const SavedQuery: React.FC = () => {
           fill="#00D09F"
         />
         <motion.circle
-          initial={"hidden"}
+          initial={"visible"}
           animate={controls}
           variants={contentVariants}
           transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}

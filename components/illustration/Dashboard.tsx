@@ -42,7 +42,7 @@ const Dashboard: React.FC = () => {
       >
         <g filter="url(#filter0_d_872_454)">
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={backgroundVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 0.2 }}
@@ -54,7 +54,7 @@ const Dashboard: React.FC = () => {
             fill="white"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -62,7 +62,7 @@ const Dashboard: React.FC = () => {
             fill="white"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -71,7 +71,7 @@ const Dashboard: React.FC = () => {
             strokeLinecap="round"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -79,7 +79,7 @@ const Dashboard: React.FC = () => {
             fill="black"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2 }}
@@ -90,7 +90,7 @@ const Dashboard: React.FC = () => {
             fill="#DADADA"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2 }}
@@ -102,7 +102,7 @@ const Dashboard: React.FC = () => {
             fill="#DADADA"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -110,7 +110,7 @@ const Dashboard: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -118,7 +118,7 @@ const Dashboard: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -128,7 +128,7 @@ const Dashboard: React.FC = () => {
             fill="black"
           />
           <motion.circle
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -138,7 +138,7 @@ const Dashboard: React.FC = () => {
             fill="black"
           />
           <motion.circle
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -148,7 +148,7 @@ const Dashboard: React.FC = () => {
             fill="black"
           />
           <motion.circle
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -158,7 +158,7 @@ const Dashboard: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -166,7 +166,7 @@ const Dashboard: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -174,7 +174,7 @@ const Dashboard: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -182,7 +182,7 @@ const Dashboard: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -190,7 +190,7 @@ const Dashboard: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -198,7 +198,7 @@ const Dashboard: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -206,7 +206,7 @@ const Dashboard: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -214,7 +214,7 @@ const Dashboard: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -222,7 +222,7 @@ const Dashboard: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -230,7 +230,7 @@ const Dashboard: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -238,7 +238,7 @@ const Dashboard: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -246,7 +246,7 @@ const Dashboard: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={graphVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.3 }}
@@ -254,7 +254,7 @@ const Dashboard: React.FC = () => {
             fill="#72DAC1"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={graphVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.3 }}
@@ -262,7 +262,7 @@ const Dashboard: React.FC = () => {
             fill="#00D09F"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={graphVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.3 }}
@@ -272,7 +272,7 @@ const Dashboard: React.FC = () => {
         </g>
         <g filter="url(#filter1_d_872_454)">
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={backgroundVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 0.2 }}
@@ -284,7 +284,7 @@ const Dashboard: React.FC = () => {
             fill="white"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -292,7 +292,7 @@ const Dashboard: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -300,7 +300,7 @@ const Dashboard: React.FC = () => {
             fill="white"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -309,7 +309,7 @@ const Dashboard: React.FC = () => {
             strokeLinecap="round"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -317,7 +317,7 @@ const Dashboard: React.FC = () => {
             fill="black"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2 }}
@@ -328,7 +328,7 @@ const Dashboard: React.FC = () => {
             fill="#DADADA"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2 }}
@@ -340,7 +340,7 @@ const Dashboard: React.FC = () => {
             fill="#DADADA"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -348,7 +348,7 @@ const Dashboard: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -356,7 +356,7 @@ const Dashboard: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -366,7 +366,7 @@ const Dashboard: React.FC = () => {
             fill="black"
           />
           <motion.circle
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -376,7 +376,7 @@ const Dashboard: React.FC = () => {
             fill="black"
           />
           <motion.circle
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -386,7 +386,7 @@ const Dashboard: React.FC = () => {
             fill="black"
           />
           <motion.circle
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}
@@ -396,7 +396,7 @@ const Dashboard: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2 }}

@@ -47,7 +47,7 @@ const DataExport: React.FC = () => {
       >
         <g filter="url(#filter0_d_564_2443)">
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={backgroundVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 0.2 }}
@@ -59,7 +59,7 @@ const DataExport: React.FC = () => {
             fill="white"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -67,7 +67,7 @@ const DataExport: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -75,7 +75,7 @@ const DataExport: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -83,7 +83,7 @@ const DataExport: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -91,7 +91,7 @@ const DataExport: React.FC = () => {
             fill="black"
           />
           <motion.line
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={lineVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 0.7 }}
@@ -103,7 +103,7 @@ const DataExport: React.FC = () => {
             strokeWidth="0.2"
           />
           <motion.line
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={lineVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 0.7 }}
@@ -115,7 +115,7 @@ const DataExport: React.FC = () => {
             strokeWidth="0.1"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -123,7 +123,7 @@ const DataExport: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -131,7 +131,7 @@ const DataExport: React.FC = () => {
             fill="black"
           />
           <motion.line
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={lineVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 0.7 }}
@@ -143,7 +143,7 @@ const DataExport: React.FC = () => {
             strokeWidth="0.1"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -151,7 +151,7 @@ const DataExport: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -159,7 +159,7 @@ const DataExport: React.FC = () => {
             fill="black"
           />
           <motion.line
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={lineVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 0.7 }}
@@ -171,7 +171,7 @@ const DataExport: React.FC = () => {
             strokeWidth="0.1"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -179,7 +179,7 @@ const DataExport: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -187,7 +187,7 @@ const DataExport: React.FC = () => {
             fill="black"
           />
           <motion.line
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={lineVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 0.7 }}
@@ -199,7 +199,7 @@ const DataExport: React.FC = () => {
             strokeWidth="0.1"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -207,7 +207,7 @@ const DataExport: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -215,7 +215,7 @@ const DataExport: React.FC = () => {
             fill="black"
           />
           <motion.line
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={lineVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 0.7 }}
@@ -227,7 +227,7 @@ const DataExport: React.FC = () => {
             strokeWidth="0.1"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -235,7 +235,7 @@ const DataExport: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -245,7 +245,7 @@ const DataExport: React.FC = () => {
         </g>
         <g filter="url(#filter1_d_564_2443)">
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1.8 }}
@@ -257,7 +257,7 @@ const DataExport: React.FC = () => {
             fill="#6D6D6D"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 1.8 }}
@@ -266,7 +266,7 @@ const DataExport: React.FC = () => {
           />
           <g clipPath="url(#clip0_564_2443)">
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.8 }}
@@ -275,7 +275,7 @@ const DataExport: React.FC = () => {
               fill="white"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.8 }}
@@ -285,7 +285,7 @@ const DataExport: React.FC = () => {
           </g>
         </g>
         <motion.line
-          initial={"hidden"}
+          initial={"visible"}
           animate={controls}
           variants={lineConnectionVariants}
           transition={{ duration: 0.3, ease: "easeOut", delay: 2.7 }}
@@ -298,7 +298,7 @@ const DataExport: React.FC = () => {
           strokeDasharray="5 5"
         />
         <motion.circle
-          initial={"hidden"}
+          initial={"visible"}
           animate={controls}
           variants={contentVariants}
           transition={{ duration: 0.3, ease: "easeOut", delay: 3.2 }}
@@ -308,7 +308,7 @@ const DataExport: React.FC = () => {
           fill="#00D09F"
         />
         <motion.path
-          initial={"hidden"}
+          initial={"visible"}
           animate={controls}
           variants={contentVariants}
           transition={{ duration: 0.3, ease: "easeOut", delay: 3.2 }}
@@ -317,7 +317,7 @@ const DataExport: React.FC = () => {
         />
         <g filter="url(#filter2_d_564_2443)">
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.2 }}
@@ -330,7 +330,7 @@ const DataExport: React.FC = () => {
           />
           <g clipPath="url(#clip1_564_2443)">
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 2.2 }}
@@ -338,7 +338,7 @@ const DataExport: React.FC = () => {
               fill="#185C37"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 2.2 }}
@@ -346,7 +346,7 @@ const DataExport: React.FC = () => {
               fill="#21A366"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 2.2 }}
@@ -354,7 +354,7 @@ const DataExport: React.FC = () => {
               fill="#107C41"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 2.2 }}
@@ -363,7 +363,7 @@ const DataExport: React.FC = () => {
               fill="black"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 2.2 }}
@@ -372,7 +372,7 @@ const DataExport: React.FC = () => {
               fill="black"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 2.2 }}
@@ -381,7 +381,7 @@ const DataExport: React.FC = () => {
               fill="black"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 2.2 }}
@@ -390,7 +390,7 @@ const DataExport: React.FC = () => {
               fill="black"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 2.2 }}
@@ -398,7 +398,7 @@ const DataExport: React.FC = () => {
               fill="url(#paint0_linear_564_2443)"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 2.2 }}
@@ -406,7 +406,7 @@ const DataExport: React.FC = () => {
               fill="white"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 2.2 }}
@@ -414,7 +414,7 @@ const DataExport: React.FC = () => {
               fill="#33C481"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 2.2 }}
@@ -423,7 +423,7 @@ const DataExport: React.FC = () => {
             />
           </g>
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.2 }}
@@ -431,7 +431,7 @@ const DataExport: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.2 }}
@@ -440,7 +440,7 @@ const DataExport: React.FC = () => {
           />
         </g>
         <motion.path
-          initial={"hidden"}
+          initial={"visible"}
           animate={controls}
           variants={contentVariants}
           transition={{ duration: 0.3, ease: "easeOut", delay: 2.2 }}

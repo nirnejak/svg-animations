@@ -43,7 +43,7 @@ const Permissions: React.FC = () => {
         <g filter="url(#filter0_d_575_347)">
           <g clipPath="url(#clip0_575_347)">
             <motion.rect
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={backgroundVariants}
               transition={{ duration: 0.4, ease: "easeOut" }}
@@ -55,7 +55,7 @@ const Permissions: React.FC = () => {
               fill="white"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -63,7 +63,7 @@ const Permissions: React.FC = () => {
               fill="black"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -71,7 +71,7 @@ const Permissions: React.FC = () => {
               fill="black"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -79,7 +79,7 @@ const Permissions: React.FC = () => {
               fill="black"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -87,7 +87,7 @@ const Permissions: React.FC = () => {
               fill="black"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -95,7 +95,7 @@ const Permissions: React.FC = () => {
               fill="black"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -103,7 +103,7 @@ const Permissions: React.FC = () => {
               fill="black"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -111,7 +111,7 @@ const Permissions: React.FC = () => {
               fill="black"
             />
             <motion.line
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={lineVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 0.7 }}
@@ -123,7 +123,7 @@ const Permissions: React.FC = () => {
               strokeWidth="0.2"
             />
             <motion.line
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={lineVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 0.7 }}
@@ -135,7 +135,7 @@ const Permissions: React.FC = () => {
               strokeWidth="0.1"
             />
             <motion.line
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={lineVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 0.7 }}
@@ -147,7 +147,7 @@ const Permissions: React.FC = () => {
               strokeWidth="0.1"
             />
             <motion.line
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={lineVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 0.7 }}
@@ -159,7 +159,7 @@ const Permissions: React.FC = () => {
               strokeWidth="0.1"
             />
             <motion.line
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={lineVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 0.7 }}
@@ -171,7 +171,7 @@ const Permissions: React.FC = () => {
               strokeWidth="0.1"
             />
             <motion.line
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={lineVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 0.7 }}
@@ -183,7 +183,7 @@ const Permissions: React.FC = () => {
               strokeWidth="0.1"
             />
             <motion.rect
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -195,7 +195,7 @@ const Permissions: React.FC = () => {
               fill="#2F2F2F"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -203,7 +203,7 @@ const Permissions: React.FC = () => {
               fill="white"
             />
             <motion.rect
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -215,7 +215,7 @@ const Permissions: React.FC = () => {
               fill="#00D09F"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -223,7 +223,7 @@ const Permissions: React.FC = () => {
               fill="white"
             />
             <motion.circle
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.7 }}
@@ -233,7 +233,7 @@ const Permissions: React.FC = () => {
               fill="#00D09F"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.7 }}
@@ -241,7 +241,7 @@ const Permissions: React.FC = () => {
               fill="white"
             />
             <motion.circle
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.7 }}
@@ -251,7 +251,7 @@ const Permissions: React.FC = () => {
               fill="#ADADAD"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.7 }}
@@ -259,7 +259,7 @@ const Permissions: React.FC = () => {
               fill="white"
             />
             <motion.circle
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.7 }}
@@ -269,7 +269,7 @@ const Permissions: React.FC = () => {
               fill="#ADADAD"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.7 }}
@@ -277,7 +277,7 @@ const Permissions: React.FC = () => {
               fill="white"
             />
             <motion.circle
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.7 }}
@@ -287,7 +287,7 @@ const Permissions: React.FC = () => {
               fill="#00D09F"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.7 }}
@@ -295,7 +295,7 @@ const Permissions: React.FC = () => {
               fill="white"
             />
             <motion.circle
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.7 }}
@@ -305,7 +305,7 @@ const Permissions: React.FC = () => {
               fill="#ADADAD"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.7 }}
@@ -316,7 +316,7 @@ const Permissions: React.FC = () => {
         </g>
         <g filter="url(#filter0_d_569_4709)">
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={backgroundVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.2 }}
@@ -328,7 +328,7 @@ const Permissions: React.FC = () => {
             fill="white"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 3.2 }}
@@ -336,7 +336,7 @@ const Permissions: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 3.2 }}
@@ -344,7 +344,7 @@ const Permissions: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 3.2 }}
@@ -352,7 +352,7 @@ const Permissions: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 3.2 }}
@@ -360,7 +360,7 @@ const Permissions: React.FC = () => {
             fill="black"
           />
           <motion.line
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={lineVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.7 }}
@@ -372,7 +372,7 @@ const Permissions: React.FC = () => {
             strokeWidth="0.2"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 3.2 }}
@@ -380,7 +380,7 @@ const Permissions: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 3.2 }}
@@ -388,7 +388,7 @@ const Permissions: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 3.2 }}
@@ -396,7 +396,7 @@ const Permissions: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 3.2 }}
@@ -404,7 +404,7 @@ const Permissions: React.FC = () => {
             fill="black"
           />
           <motion.line
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={lineVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.7 }}
@@ -416,7 +416,7 @@ const Permissions: React.FC = () => {
             strokeWidth="0.2"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 3.2 }}
@@ -424,7 +424,7 @@ const Permissions: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 3.2 }}
@@ -432,7 +432,7 @@ const Permissions: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 3.2 }}
@@ -440,7 +440,7 @@ const Permissions: React.FC = () => {
             fill="black"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 3.2 }}
@@ -452,7 +452,7 @@ const Permissions: React.FC = () => {
             fill="#FEECF0"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 3.2 }}
@@ -461,7 +461,7 @@ const Permissions: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 3.2 }}
@@ -469,7 +469,7 @@ const Permissions: React.FC = () => {
             fill="#CC0F35"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 3.2 }}
@@ -481,7 +481,7 @@ const Permissions: React.FC = () => {
             fill="#E5F5FF"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 3.2 }}
@@ -489,7 +489,7 @@ const Permissions: React.FC = () => {
             fill="#0099FF"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 3.2 }}
@@ -497,7 +497,7 @@ const Permissions: React.FC = () => {
             fill="#0099FF"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 3.2 }}

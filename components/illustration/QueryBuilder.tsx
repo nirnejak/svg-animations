@@ -43,7 +43,7 @@ const QueryBuilder: React.FC = () => {
         <g filter="url(#filter0_d_774:1138)">
           <g clipPath="url(#clip0_774:1138)">
             <motion.rect
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={backgroundVariants}
               transition={{ duration: 0.4, ease: "easeOut" }}
@@ -55,7 +55,7 @@ const QueryBuilder: React.FC = () => {
               fill="white"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -63,7 +63,7 @@ const QueryBuilder: React.FC = () => {
               fill="black"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -71,7 +71,7 @@ const QueryBuilder: React.FC = () => {
               fill="black"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -79,7 +79,7 @@ const QueryBuilder: React.FC = () => {
               fill="black"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -87,7 +87,7 @@ const QueryBuilder: React.FC = () => {
               fill="black"
             />
             <motion.line
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={lineVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 0.7 }}
@@ -99,7 +99,7 @@ const QueryBuilder: React.FC = () => {
               strokeWidth="0.3"
             />
             <motion.line
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={lineVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 0.7 }}
@@ -111,7 +111,7 @@ const QueryBuilder: React.FC = () => {
               strokeWidth="0.2"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -119,7 +119,7 @@ const QueryBuilder: React.FC = () => {
               fill="black"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -127,7 +127,7 @@ const QueryBuilder: React.FC = () => {
               fill="black"
             />
             <motion.line
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={lineVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 0.7 }}
@@ -139,7 +139,7 @@ const QueryBuilder: React.FC = () => {
               strokeWidth="0.2"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -147,7 +147,7 @@ const QueryBuilder: React.FC = () => {
               fill="black"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -155,7 +155,7 @@ const QueryBuilder: React.FC = () => {
               fill="black"
             />
             <motion.line
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={lineVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 0.7 }}
@@ -167,7 +167,7 @@ const QueryBuilder: React.FC = () => {
               strokeWidth="0.2"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -175,7 +175,7 @@ const QueryBuilder: React.FC = () => {
               fill="black"
             />
             <motion.path
-              initial={"hidden"}
+              initial={"visible"}
               animate={controls}
               variants={contentVariants}
               transition={{ duration: 0.3, ease: "easeOut", delay: 1.3 }}
@@ -186,7 +186,7 @@ const QueryBuilder: React.FC = () => {
         </g>
         <g filter="url(#filter1_d_774:1138)">
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={backgroundVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2 }}
@@ -198,7 +198,7 @@ const QueryBuilder: React.FC = () => {
             fill="white"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -206,7 +206,7 @@ const QueryBuilder: React.FC = () => {
             fill="black"
           />
           <motion.line
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={lineVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.4 }}
@@ -218,7 +218,7 @@ const QueryBuilder: React.FC = () => {
             strokeWidth="0.2"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -229,7 +229,7 @@ const QueryBuilder: React.FC = () => {
             fill="#FAFAFA"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -240,7 +240,7 @@ const QueryBuilder: React.FC = () => {
             fill="black"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -252,7 +252,7 @@ const QueryBuilder: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -260,7 +260,7 @@ const QueryBuilder: React.FC = () => {
             fill="black"
           />
           <motion.line
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={lineVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.4 }}
@@ -272,7 +272,7 @@ const QueryBuilder: React.FC = () => {
             strokeWidth="0.2"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -283,7 +283,7 @@ const QueryBuilder: React.FC = () => {
             fill="#FAFAFA"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -294,7 +294,7 @@ const QueryBuilder: React.FC = () => {
             fill="black"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -306,7 +306,7 @@ const QueryBuilder: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -314,7 +314,7 @@ const QueryBuilder: React.FC = () => {
             fill="black"
           />
           <motion.line
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={lineVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.4 }}
@@ -326,7 +326,7 @@ const QueryBuilder: React.FC = () => {
             strokeWidth="0.2"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -337,7 +337,7 @@ const QueryBuilder: React.FC = () => {
             fill="#FAFAFA"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -348,7 +348,7 @@ const QueryBuilder: React.FC = () => {
             fill="black"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -360,7 +360,7 @@ const QueryBuilder: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -368,7 +368,7 @@ const QueryBuilder: React.FC = () => {
             fill="black"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -379,7 +379,7 @@ const QueryBuilder: React.FC = () => {
             fill="#E5F5FF"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -387,7 +387,7 @@ const QueryBuilder: React.FC = () => {
             fill="#0099FF"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -395,7 +395,7 @@ const QueryBuilder: React.FC = () => {
             fill="#0099FF"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -403,7 +403,7 @@ const QueryBuilder: React.FC = () => {
             fill="#0099FF"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -414,7 +414,7 @@ const QueryBuilder: React.FC = () => {
             fill="#FEECF0"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -427,7 +427,7 @@ const QueryBuilder: React.FC = () => {
             fill="#CC0F35"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -438,7 +438,7 @@ const QueryBuilder: React.FC = () => {
             fill="#CC0F35"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -446,7 +446,7 @@ const QueryBuilder: React.FC = () => {
             fill="#FAFAFA"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -454,7 +454,7 @@ const QueryBuilder: React.FC = () => {
             fill="black"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -465,7 +465,7 @@ const QueryBuilder: React.FC = () => {
             fill="#E5F5FF"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -473,7 +473,7 @@ const QueryBuilder: React.FC = () => {
             fill="#0099FF"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -484,7 +484,7 @@ const QueryBuilder: React.FC = () => {
             fill="#E4F9F4"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -492,7 +492,7 @@ const QueryBuilder: React.FC = () => {
             fill="#00D09F"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -500,7 +500,7 @@ const QueryBuilder: React.FC = () => {
             fill="#FEECF0"
           />
           <motion.circle
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -510,7 +510,7 @@ const QueryBuilder: React.FC = () => {
             fill="#CDBEC2"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -521,7 +521,7 @@ const QueryBuilder: React.FC = () => {
             fill="white"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -532,7 +532,7 @@ const QueryBuilder: React.FC = () => {
             fill="white"
           />
           <motion.line
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={lineVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.4 }}
@@ -544,7 +544,7 @@ const QueryBuilder: React.FC = () => {
             strokeWidth="0.2"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -552,7 +552,7 @@ const QueryBuilder: React.FC = () => {
             fill="black"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -563,7 +563,7 @@ const QueryBuilder: React.FC = () => {
             fill="#E5F5FF"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -571,7 +571,7 @@ const QueryBuilder: React.FC = () => {
             fill="#0099FF"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -579,7 +579,7 @@ const QueryBuilder: React.FC = () => {
             fill="#0099FF"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -587,7 +587,7 @@ const QueryBuilder: React.FC = () => {
             fill="#0099FF"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -598,7 +598,7 @@ const QueryBuilder: React.FC = () => {
             fill="#FEECF0"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -611,7 +611,7 @@ const QueryBuilder: React.FC = () => {
             fill="#CC0F35"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -622,7 +622,7 @@ const QueryBuilder: React.FC = () => {
             fill="#CC0F35"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -630,7 +630,7 @@ const QueryBuilder: React.FC = () => {
             fill="#E5F5FF"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -638,7 +638,7 @@ const QueryBuilder: React.FC = () => {
             fill="#0099FF"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -649,7 +649,7 @@ const QueryBuilder: React.FC = () => {
             fill="#E4F9F4"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -657,7 +657,7 @@ const QueryBuilder: React.FC = () => {
             fill="#00D09F"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -665,7 +665,7 @@ const QueryBuilder: React.FC = () => {
             fill="#FEECF0"
           />
           <motion.circle
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -675,7 +675,7 @@ const QueryBuilder: React.FC = () => {
             fill="#CDBEC2"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}
@@ -686,7 +686,7 @@ const QueryBuilder: React.FC = () => {
             fill="white"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.3, ease: "easeOut", delay: 2.8 }}

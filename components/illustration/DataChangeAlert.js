@@ -37,7 +37,7 @@ const DataChangeAlert = () => {
         height="170"
         rx="15"
         fill="#F1F1F1"
-        initial={"hidden"}
+        initial={"visible"}
         animate={controls}
         variants={rectangleVariants}
         transition={{ duration: 0.7, ease: "easeOut" }}
@@ -49,7 +49,7 @@ const DataChangeAlert = () => {
         height="11"
         rx="5.5"
         fill="#DDDDDD"
-        initial={"hidden"}
+        initial={"visible"}
         animate={controls}
         variants={sector3Variants}
         transition={{ duration: 0.7, ease: "easeOut", delay: 0.7 }}
@@ -61,7 +61,7 @@ const DataChangeAlert = () => {
         height="9.28572"
         rx="4.64286"
         fill="white"
-        initial={"hidden"}
+        initial={"visible"}
         animate={controls}
         variants={sector3Variants}
         transition={{ duration: 0.7, ease: "easeOut", delay: 0.75 }}
@@ -73,7 +73,7 @@ const DataChangeAlert = () => {
         height="9.28572"
         rx="4.64286"
         fill="white"
-        initial={"hidden"}
+        initial={"visible"}
         animate={controls}
         variants={sector3Variants}
         transition={{ duration: 0.7, ease: "easeOut", delay: 0.77 }}
@@ -85,7 +85,7 @@ const DataChangeAlert = () => {
         height="9.28572"
         rx="4.64286"
         fill="white"
-        initial={"hidden"}
+        initial={"visible"}
         animate={controls}
         variants={sector3Variants}
         transition={{ duration: 0.7, ease: "easeOut", delay: 0.78 }}
@@ -97,7 +97,7 @@ const DataChangeAlert = () => {
         height="9.28572"
         rx="4.64286"
         fill="white"
-        initial={"hidden"}
+        initial={"visible"}
         animate={controls}
         variants={sector3Variants}
         transition={{ duration: 0.7, ease: "easeOut", delay: 0.79 }}
@@ -109,7 +109,7 @@ const DataChangeAlert = () => {
         height="9.28572"
         rx="4.64286"
         fill="white"
-        initial={"hidden"}
+        initial={"visible"}
         animate={controls}
         variants={sector3Variants}
         transition={{ duration: 0.7, ease: "easeOut", delay: 0.8 }}
@@ -121,7 +121,7 @@ const DataChangeAlert = () => {
         height="9.28572"
         rx="4.64286"
         fill="white"
-        initial={"hidden"}
+        initial={"visible"}
         animate={controls}
         variants={sector3Variants}
         transition={{ duration: 0.7, ease: "easeOut", delay: 0.81 }}
@@ -133,7 +133,7 @@ const DataChangeAlert = () => {
         height="9.28572"
         rx="4.64286"
         fill="white"
-        initial={"hidden"}
+        initial={"visible"}
         animate={controls}
         variants={sector3Variants}
         transition={{ duration: 0.7, ease: "easeOut", delay: 0.82 }}
@@ -145,7 +145,7 @@ const DataChangeAlert = () => {
         height="9.28572"
         rx="4.64286"
         fill="#00D09F"
-        initial={"hidden"}
+        initial={"visible"}
         animate={controls}
         variants={sector3Variants}
         transition={{ duration: 0.7, ease: "easeOut", delay: 0.83 }}
@@ -157,7 +157,7 @@ const DataChangeAlert = () => {
         height="9.28572"
         rx="4.64286"
         fill="#00D09F"
-        initial={"hidden"}
+        initial={"visible"}
         animate={controls}
         variants={sector3Variants}
         transition={{ duration: 0.7, ease: "easeOut", delay: 0.84 }}
@@ -169,7 +169,7 @@ const DataChangeAlert = () => {
         height="9.28572"
         rx="4.64286"
         fill="#00D09F"
-        initial={"hidden"}
+        initial={"visible"}
         animate={controls}
         variants={sector3Variants}
         transition={{ duration: 0.7, ease: "easeOut", delay: 0.85 }}
@@ -181,7 +181,7 @@ const DataChangeAlert = () => {
         height="9.28572"
         rx="4.64286"
         fill="white"
-        initial={"hidden"}
+        initial={"visible"}
         animate={controls}
         variants={sector3Variants}
         transition={{ duration: 0.7, ease: "easeOut", delay: 0.86 }}
@@ -193,7 +193,7 @@ const DataChangeAlert = () => {
         height="9.28572"
         rx="4.64286"
         fill="white"
-        initial={"hidden"}
+        initial={"visible"}
         animate={controls}
         variants={sector3Variants}
         transition={{ duration: 0.7, ease: "easeOut", delay: 0.87 }}
@@ -205,7 +205,7 @@ const DataChangeAlert = () => {
         height="9.28572"
         rx="4.64286"
         fill="white"
-        initial={"hidden"}
+        initial={"visible"}
         animate={controls}
         variants={sector3Variants}
         transition={{ duration: 0.7, ease: "easeOut", delay: 0.88 }}
@@ -217,7 +217,7 @@ const DataChangeAlert = () => {
         height="9.28572"
         rx="4.64286"
         fill="white"
-        initial={"hidden"}
+        initial={"visible"}
         animate={controls}
         variants={sector3Variants}
         transition={{ duration: 0.7, ease: "easeOut", delay: 0.89 }}
@@ -229,7 +229,7 @@ const DataChangeAlert = () => {
         height="9.28572"
         rx="4.64286"
         fill="#00D09F"
-        initial={"hidden"}
+        initial={"visible"}
         animate={controls}
         variants={sector3Variants}
         transition={{ duration: 0.7, ease: "easeOut", delay: 0.9 }}
@@ -241,7 +241,7 @@ const DataChangeAlert = () => {
         height="9.28572"
         rx="4.64286"
         fill="white"
-        initial={"hidden"}
+        initial={"visible"}
         animate={controls}
         variants={sector3Variants}
         transition={{ duration: 0.7, ease: "easeOut", delay: 0.91 }}
@@ -253,7 +253,7 @@ const DataChangeAlert = () => {
         height="11"
         rx="5.5"
         fill="#DDDDDD"
-        initial={"hidden"}
+        initial={"visible"}
         animate={controls}
         variants={sector3Variants}
         transition={{ duration: 0.7, ease: "easeOut", delay: 0.92 }}
@@ -265,7 +265,7 @@ const DataChangeAlert = () => {
         height="11"
         rx="5.5"
         fill="#DDDDDD"
-        initial={"hidden"}
+        initial={"visible"}
         animate={controls}
         variants={sector3Variants}
         transition={{ duration: 0.7, ease: "easeOut", delay: 0.93 }}
@@ -277,7 +277,7 @@ const DataChangeAlert = () => {
         height="11"
         rx="5.5"
         fill="#DDDDDD"
-        initial={"hidden"}
+        initial={"visible"}
         animate={controls}
         variants={sector3Variants}
         transition={{ duration: 0.7, ease: "easeOut", delay: 0.94 }}
@@ -289,7 +289,7 @@ const DataChangeAlert = () => {
         height="130"
         rx="1.5"
         fill="white"
-        initial={"hidden"}
+        initial={"visible"}
         animate={controls}
         variants={sector3Variants}
         transition={{ duration: 0.7, ease: "easeOut", delay: 0.95 }}
@@ -302,7 +302,7 @@ const DataChangeAlert = () => {
         rx="1.49999"
         transform="rotate(-90 20 45)"
         fill="white"
-        initial={"hidden"}
+        initial={"visible"}
         animate={controls}
         variants={contentVariants}
         transition={{ duration: 0.7, ease: "easeOut", delay: 0.96 }}

@@ -47,7 +47,7 @@ const Alerts: React.FC = () => {
       >
         <g filter="url(#filter0_d_790_3686)">
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={backgroundVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 0.2 }}
@@ -58,7 +58,7 @@ const Alerts: React.FC = () => {
             fill="white"
           />
           <motion.line
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={lineVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 0.7 }}
@@ -70,7 +70,7 @@ const Alerts: React.FC = () => {
             strokeWidth="0.2"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 1.3 }}
@@ -78,7 +78,7 @@ const Alerts: React.FC = () => {
             fill="#E01E5A"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 1.3 }}
@@ -86,7 +86,7 @@ const Alerts: React.FC = () => {
             fill="#36C5F0"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 1.3 }}
@@ -94,7 +94,7 @@ const Alerts: React.FC = () => {
             fill="#2EB67D"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 1.3 }}
@@ -102,7 +102,7 @@ const Alerts: React.FC = () => {
             fill="#ECB22E"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 1.3 }}
@@ -110,7 +110,7 @@ const Alerts: React.FC = () => {
             fill="black"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 1.3 }}
@@ -122,7 +122,7 @@ const Alerts: React.FC = () => {
             stroke="black"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 1.3 }}
@@ -134,7 +134,7 @@ const Alerts: React.FC = () => {
             fill="#2F2F2F"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 1.3 }}
@@ -142,7 +142,7 @@ const Alerts: React.FC = () => {
             fill="white"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 1.3 }}
@@ -154,7 +154,7 @@ const Alerts: React.FC = () => {
             fill="#00D09F"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 1.3 }}
@@ -162,7 +162,7 @@ const Alerts: React.FC = () => {
             fill="white"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 1.3 }}
@@ -174,7 +174,7 @@ const Alerts: React.FC = () => {
             fill="#F1F1F1"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 1.3 }}
@@ -186,7 +186,7 @@ const Alerts: React.FC = () => {
             fill="#F1F1F1"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 1.3 }}
@@ -194,7 +194,7 @@ const Alerts: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 1.3 }}
@@ -202,7 +202,7 @@ const Alerts: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 1.3 }}
@@ -210,7 +210,7 @@ const Alerts: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 1.3 }}
@@ -218,7 +218,7 @@ const Alerts: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 1.3 }}
@@ -226,7 +226,7 @@ const Alerts: React.FC = () => {
             fill="black"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 1.3 }}
@@ -236,7 +236,7 @@ const Alerts: React.FC = () => {
         </g>
         <g filter="url(#filter1_d_790_3686)">
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={backgroundVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.2 }}
@@ -244,7 +244,7 @@ const Alerts: React.FC = () => {
             fill="white"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.7 }}
@@ -256,7 +256,7 @@ const Alerts: React.FC = () => {
             fill="#F1F1F1"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.7 }}
@@ -268,7 +268,7 @@ const Alerts: React.FC = () => {
             fill="#F1F1F1"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.7 }}
@@ -280,7 +280,7 @@ const Alerts: React.FC = () => {
             fill="#F1F1F1"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.7 }}
@@ -288,7 +288,7 @@ const Alerts: React.FC = () => {
             fill="#05FAC0"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.7 }}
@@ -296,7 +296,7 @@ const Alerts: React.FC = () => {
             fill="#00FCC8"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.7 }}
@@ -305,7 +305,7 @@ const Alerts: React.FC = () => {
             stroke="#03E2AE"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.7 }}
@@ -314,7 +314,7 @@ const Alerts: React.FC = () => {
             stroke="#00D09F"
           />
           <motion.line
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.7 }}
@@ -326,7 +326,7 @@ const Alerts: React.FC = () => {
             strokeWidth="0.1"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.7 }}
@@ -334,7 +334,7 @@ const Alerts: React.FC = () => {
             fill="black"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.7 }}
@@ -346,7 +346,7 @@ const Alerts: React.FC = () => {
             fill="#F1F1F1"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={graphVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 3.3 }}
@@ -354,7 +354,7 @@ const Alerts: React.FC = () => {
             fill="#E4F9F4"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={graphVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 3.3 }}
@@ -362,7 +362,7 @@ const Alerts: React.FC = () => {
             fill="#00D09F"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={graphVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 3.3 }}
@@ -370,7 +370,7 @@ const Alerts: React.FC = () => {
             fill="#E4F9F4"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.7 }}
@@ -382,7 +382,7 @@ const Alerts: React.FC = () => {
             fill="#DDDDDD"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.7 }}
@@ -394,7 +394,7 @@ const Alerts: React.FC = () => {
             fill="#DDDDDD"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.7 }}
@@ -406,7 +406,7 @@ const Alerts: React.FC = () => {
             fill="#DDDDDD"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.7 }}
@@ -417,7 +417,7 @@ const Alerts: React.FC = () => {
             fill="#DDDDDD"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.7 }}
@@ -428,7 +428,7 @@ const Alerts: React.FC = () => {
             fill="#DDDDDD"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.7 }}
@@ -439,7 +439,7 @@ const Alerts: React.FC = () => {
             fill="#DDDDDD"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.7 }}
@@ -450,7 +450,7 @@ const Alerts: React.FC = () => {
             fill="#DDDDDD"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.7 }}
@@ -461,7 +461,7 @@ const Alerts: React.FC = () => {
             fill="#DDDDDD"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.7 }}
@@ -473,7 +473,7 @@ const Alerts: React.FC = () => {
             fill="#F1F1F1"
           />
           <motion.rect
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.7 }}
@@ -485,7 +485,7 @@ const Alerts: React.FC = () => {
             fill="#F1F1F1"
           />
           <motion.circle
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.7 }}
@@ -495,7 +495,7 @@ const Alerts: React.FC = () => {
             fill="#F1F1F1"
           />
           <motion.circle
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.7 }}
@@ -505,7 +505,7 @@ const Alerts: React.FC = () => {
             fill="#F1F1F1"
           />
           <motion.circle
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.7 }}
@@ -515,7 +515,7 @@ const Alerts: React.FC = () => {
             fill="#F1F1F1"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.7 }}
@@ -523,7 +523,7 @@ const Alerts: React.FC = () => {
             fill="#E01E5A"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.7 }}
@@ -531,7 +531,7 @@ const Alerts: React.FC = () => {
             fill="#36C5F0"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.7 }}
@@ -539,7 +539,7 @@ const Alerts: React.FC = () => {
             fill="#2EB67D"
           />
           <motion.path
-            initial={"hidden"}
+            initial={"visible"}
             animate={controls}
             variants={contentVariants}
             transition={{ duration: 0.4, ease: "easeOut", delay: 2.7 }}
@@ -548,7 +548,7 @@ const Alerts: React.FC = () => {
           />
         </g>
         <motion.path
-          initial={"hidden"}
+          initial={"visible"}
           animate={controls}
           variants={contentVariants}
           transition={{ duration: 0.4, ease: "easeOut", delay: 1.8 }}
