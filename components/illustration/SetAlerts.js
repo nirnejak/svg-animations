@@ -5,10 +5,6 @@ import { motion, useAnimation } from "framer-motion"
 const SetAlerts = () => {
   const controls = useAnimation()
 
-  React.useEffect(() => {
-    controls.set("visible")
-  }, [controls])
-
   const contentVariants = {
     hidden: { opacity: 0 },
     visible: { opacity: 1 },

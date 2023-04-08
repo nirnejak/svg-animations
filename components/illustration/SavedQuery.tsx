@@ -7,10 +7,6 @@ import RestartButton from "components/RestartButton"
 const SavedQuery: React.FC = () => {
   const controls = useAnimation()
 
-  React.useEffect(() => {
-    controls.set("visible")
-  }, [controls])
-
   const backgroundVariants = {
     hidden: { scale: 0 },
     visible: { scale: 1, originX: 0, originY: 0 },

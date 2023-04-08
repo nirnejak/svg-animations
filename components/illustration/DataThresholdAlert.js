@@ -5,10 +5,6 @@ import { motion, useAnimation } from "framer-motion"
 const DataThresholdAlert = () => {
   const controls = useAnimation()
 
-  React.useEffect(() => {
-    controls.set("visible")
-  }, [controls])
-
   const rectangleVariants = {
     hidden: { opacity: 0, scale: 0 },
     visible: { opacity: 1, scale: 1, originX: 0, originY: 0 },

@@ -5,10 +5,6 @@ import { motion, useAnimation } from "framer-motion"
 const GroupDashboard = () => {
   const controls = useAnimation()
 
-  React.useEffect(() => {
-    controls.set("visible")
-  }, [controls])
-
   const circleVariants = {
     hidden: { opacity: 0, scale: 0 },
     visible: { opacity: 1, scale: 1 },

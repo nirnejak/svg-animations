@@ -7,10 +7,6 @@ import RestartButton from "components/RestartButton"
 const Visualize: React.FC = () => {
   const controls = useAnimation()
 
-  React.useEffect(() => {
-    controls.set("visible")
-  }, [controls])
-
   const contentVariants = {
     hidden: { opacity: 0 },
     visible: { opacity: 1 },
