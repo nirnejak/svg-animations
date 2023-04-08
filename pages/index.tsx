@@ -12,7 +12,7 @@ import SavedQueryIllustration from "components/illustration/SavedQuery"
 import SharingIllustration from "components/illustration/Sharing"
 import VisualizeIllustration from "components/illustration/Visualize"
 
-const Home = () => {
+const Home: React.FC = () => {
   return (
     <div>
       <Head>

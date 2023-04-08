@@ -1,13 +1,15 @@
 import * as React from "react"
 
-type Props = {
+interface Props {
   onClick: () => void
 }
 
 const RestartButton: React.FC<Props> = ({ onClick }) => {
   return (
     <button
-      onClick={() => onClick()}
+      onClick={() => {
+        onClick()
+      }}
       className="absolute bottom-2 right-2 rounded-full bg-gray-200 p-3 text-xs text-gray-700 outline-none transition-transform hover:bg-gray-300 focus:bg-gray-300 active:-rotate-45"
     >
       <svg

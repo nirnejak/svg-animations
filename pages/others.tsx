@@ -11,7 +11,7 @@ import GroupDashboardIllustration from "components/illustration/GroupDashboard"
 import SetAlertsIllustration from "components/illustration/SetAlerts"
 import TimelyUpdatesIllustration from "components/illustration/TimelyUpdates"
 
-const Other = () => {
+const Other: React.FC = () => {
   return (
     <div>
       <Head>

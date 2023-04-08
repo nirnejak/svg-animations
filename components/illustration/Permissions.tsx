@@ -22,7 +22,7 @@ const Permissions: React.FC = () => {
     visible: { scaleX: 1 },
   }
 
-  const restartAnimation = () => {
+  const restartAnimation = (): void => {
     controls.set("hidden")
     controls.start("visible").catch((err) => {
       console.log(err)
@@ -594,7 +594,11 @@ const Permissions: React.FC = () => {
           </clipPath>
         </defs>
       </motion.svg>
-      <RestartButton onClick={() => restartAnimation()} />
+      <RestartButton
+        onClick={() => {
+          restartAnimation()
+        }}
+      />
     </div>
   )
 }

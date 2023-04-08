@@ -47,7 +47,7 @@ const Visualize: React.FC = () => {
     visible: { scale: 1, originX: 0, originY: 1 },
   }
 
-  const restartAnimation = () => {
+  const restartAnimation = (): void => {
     controls.set("hidden")
     controls.start("visible").catch((err) => {
       console.log(err)
@@ -445,7 +445,11 @@ const Visualize: React.FC = () => {
           </filter>
         </defs>
       </motion.svg>
-      <RestartButton onClick={() => restartAnimation()} />
+      <RestartButton
+        onClick={() => {
+          restartAnimation()
+        }}
+      />
     </div>
   )
 }
