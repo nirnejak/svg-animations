@@ -366,7 +366,7 @@ const Permissions: React.FC = () => {
           x2="493"
           y2="42.9"
           stroke="black"
-          stroke-width="0.2"
+          strokeWidth="0.2"
         />
         <motion.path
           initial={"hidden"}
@@ -410,7 +410,7 @@ const Permissions: React.FC = () => {
           x2="493"
           y2="72.9"
           stroke="black"
-          stroke-width="0.2"
+          strokeWidth="0.2"
         />
         <motion.path
           initial={"hidden"}
