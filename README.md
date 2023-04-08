@@ -1,21 +1,10 @@
 <h1 align="center">
-  Next.js TypeScript Starter
+  SVG Animations
 </h1>
 
 ---
 
-## Included
-
-- `_document.tsx` file with basic Metadata
-- `manifest.json` for site info
-- `classnames` util for easily managing classes
-
-## Additional Packages Used
-
-- Tailwind CSS - for styling
-- Framer Motion - for animations
-- React Query - for data fetching and caching
-- use-sound - for using sound effects
+SVG Animations with Framer Motion
 
 ## Available Scripts
 
