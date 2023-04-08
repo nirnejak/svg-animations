@@ -1,15 +1,17 @@
-import React from "react"
+import * as React from "react"
 import { useInView } from "react-intersection-observer"
 
 import { motion, useAnimation } from "framer-motion"
 
-const DataExport = () => {
+const DataExport: React.FC = () => {
   const controls = useAnimation()
   const [ref, inView] = useInView()
 
   React.useEffect(() => {
     if (inView) {
-      controls.start("visible")
+      controls.start("visible").catch((err) => {
+        console.log(err)
+      })
     }
   }, [controls, inView])
 
