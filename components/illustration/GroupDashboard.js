@@ -3,7 +3,7 @@ import { useInView } from "react-intersection-observer"
 
 import { motion, useAnimation } from "framer-motion"
 
-const AirtableDashboard = () => {
+const GroupDashboard = () => {
   const controls = useAnimation()
   const [ref, inView] = useInView()
 
@@ -372,4 +372,4 @@ const AirtableDashboard = () => {
   )
 }
 
-export default AirtableDashboard
+export default GroupDashboard
