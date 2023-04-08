@@ -4,9 +4,9 @@
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "Next.js TypeScript Starter",
-    "short_name": "Next.js TypeScript Starter",
-    "description": "Next.js TypeScript Starter with basic configuration",
+    "name": "SVG Animations",
+    "short_name": "SVG Animations",
+    "description": "SVG Animations with Framer Motion",
     "icons": [
         {
             "src": "/path-to-icons/icon-192x192.png",

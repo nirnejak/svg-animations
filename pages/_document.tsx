@@ -20,26 +20,29 @@ const MyDocument: React.FC = () => {
         {/* Manifest */}
         <link rel="manifest" href="/manifest.json" />
         {/* Basic Meta */}
-        <meta name="keywords" content="Next.js, TypeScript, Starter" />
-        <meta name="author" content="Next.js TypeScript Starter" />
+        <meta
+          name="keywords"
+          content="SVG, Animations, Framer Motion, Next.js, TypeScript"
+        />
+        <meta name="author" content="Jitendra Nirnejak" />
         <meta
           name="robots"
           content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
         />
-        <meta name="application-name" content="Next.js TypeScript Starter" />
+        <meta name="application-name" content="SVG Animations" />
         {/* Schema.org for Google */}
-        <meta itemProp="name" content="Next.js TypeScript Starter" />
+        <meta itemProp="name" content="SVG Animations" />
         {/* Open Graph */}
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content={"Next.js TypeScript Starter"} />
+        <meta property="og:site_name" content="SVG Animations" />
         {/* Facebook App */}
         <meta property="fb:admins" content="<fb-admin-id>" />
         <meta property="fb:app_id" content="<fb-app-id>" />
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:creator" content="@twitterusername" />
-        <meta name="twitter:site" content="@twitterusername" />
+        <meta name="twitter:creator" content="@jeetnirnejak" />
+        <meta name="twitter:site" content="@jeetnirnejak" />
       </Head>
       <body className="overflow-x-hidden bg-zinc-900">
         <Main />

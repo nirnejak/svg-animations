@@ -24,8 +24,8 @@ const Home = () => {
   return (
     <div>
       <Head>
-        <title>Next.js App</title>
-        <meta name="description" content="Next.js Typescript Starter" />
+        <title>SVG Animations</title>
+        <meta name="description" content="SVG Animations with Framer Motion" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
