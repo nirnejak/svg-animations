@@ -3,6 +3,8 @@ import { useInView } from "react-intersection-observer"
 
 import { motion, useAnimation } from "framer-motion"
 
+import RestartButton from "components/RestartButton"
+
 const Visualize: React.FC = () => {
   const controls = useAnimation()
   const [ref, inView] = useInView()
@@ -454,12 +456,7 @@ const Visualize: React.FC = () => {
           </filter>
         </defs>
       </motion.svg>
-      <button
-        onClick={() => restartAnimation()}
-        className="absolute bottom-2 right-2 rounded-md bg-gray-800 px-3 py-2 text-xs text-white transition-transform hover:bg-gray-700 active:scale-95"
-      >
-        Restart
-      </button>
+      <RestartButton onClick={() => restartAnimation()} />
     </div>
   )
 }
