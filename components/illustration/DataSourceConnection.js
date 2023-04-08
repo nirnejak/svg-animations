@@ -1,17 +1,15 @@
 import React from "react"
-import { useInView } from "react-intersection-observer"
 
 import { motion, useAnimation } from "framer-motion"
 
 const Visualize = () => {
   const controls = useAnimation()
-  const [ref, inView] = useInView()
 
   React.useEffect(() => {
-    if (inView) {
-      controls.start("visible")
-    }
-  }, [controls, inView])
+    controls.start("visible").catch((err) => {
+      console.log(err)
+    })
+  }, [controls])
 
   const contentVariants = {
     hidden: { opacity: 0 },
@@ -35,7 +33,6 @@ const Visualize = () => {
 
   return (
     <motion.svg
-      ref={ref}
       width="286"
       height="170"
       viewBox="0 0 286 170"

@@ -1,17 +1,15 @@
 import React from "react"
-import { useInView } from "react-intersection-observer"
 
 import { motion, useAnimation } from "framer-motion"
 
 const DraxlrInSlack = () => {
   const controls = useAnimation()
-  const [ref, inView] = useInView()
 
   React.useEffect(() => {
-    if (inView) {
-      controls.start("visible")
-    }
-  }, [controls, inView])
+    controls.start("visible").catch((err) => {
+      console.log(err)
+    })
+  }, [controls])
 
   const contentVariants = {
     hidden: { opacity: 0 },
@@ -40,7 +38,6 @@ const DraxlrInSlack = () => {
 
   return (
     <motion.svg
-      ref={ref}
       viewBox="0 0 403 430"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

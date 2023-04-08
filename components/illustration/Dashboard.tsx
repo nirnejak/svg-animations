@@ -1,5 +1,4 @@
 import * as React from "react"
-import { useInView } from "react-intersection-observer"
 
 import { motion, useAnimation } from "framer-motion"
 
@@ -7,15 +6,12 @@ import RestartButton from "components/RestartButton"
 
 const Dashboard: React.FC = () => {
   const controls = useAnimation()
-  const [ref, inView] = useInView()
 
   React.useEffect(() => {
-    if (inView) {
-      controls.start("visible").catch((err) => {
-        console.log(err)
-      })
-    }
-  }, [controls, inView])
+    controls.start("visible").catch((err) => {
+      console.log(err)
+    })
+  }, [controls])
 
   const backgroundVariants = {
     hidden: { scale: 0 },
@@ -42,7 +38,6 @@ const Dashboard: React.FC = () => {
   return (
     <div className="w-full">
       <motion.svg
-        ref={ref}
         viewBox="0 0 562 517"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
