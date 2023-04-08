@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-typescript-starter",
+  "name": "svg-animations",
   "description": "Next.js TypeScript Starter",
   "version": "1.0.0",
   "author": "Jitendra Nirnejak <jeetnirnejak@gmail.com>",
@@ -64,9 +64,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nirnejak/nextjs-typescript-starter"
+    "url": "https://github.com/nirnejak/svg-animations"
   },
   "bugs": {
-    "url": "https://github.com/nirnejak/nextjs-typescript-starter/issues"
+    "url": "https://github.com/nirnejak/svg-animations/issues"
   }
 }
