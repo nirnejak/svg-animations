@@ -1,6 +1,6 @@
 {
   "name": "svg-animations",
-  "description": "Next.js TypeScript Starter",
+  "description": "SVG Animations with Framer Motion",
   "version": "1.0.0",
   "author": "Jitendra Nirnejak <jeetnirnejak@gmail.com>",
   "scripts": {
