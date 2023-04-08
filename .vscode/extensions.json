@@ -4,11 +4,9 @@
     "editorconfig.editorconfig",
     "esbenp.prettier-vscode",
     "jock.svg",
-    "graphql.vscode-graphql",
     "dsznajder.es7-react-js-snippets",
     "bradlc.vscode-tailwindcss",
     "csstools.postcss",
-    "streetsidesoftware.code-spell-checker",
-    "GraphQL.vscode-graphql"
+    "streetsidesoftware.code-spell-checker"
   ]
 }
