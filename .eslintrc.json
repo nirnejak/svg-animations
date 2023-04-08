@@ -1,0 +1,99 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2020,
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "standard",
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:tailwindcss/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "next/core-web-vitals",
+    "next"
+  ],
+  "plugins": ["@typescript-eslint", "jsx-a11y", "tailwindcss"],
+  "rules": {
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": "error",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-empty-interface": "off",
+
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-no-useless-fragment": "error",
+    "react/no-multi-comp": "error",
+    "react/sort-comp": "error",
+
+    "react-hooks/exhaustive-deps": "warn",
+    "react-hooks/rules-of-hooks": "error",
+
+    // Uncomment this if using font-awesome
+    // "tailwindcss/no-custom-classname": [
+    //   "error",
+    //   {
+    //     "whitelist": [
+    //       "fad",
+    //       "fab",
+    //       "fas",
+    //       "far",
+    //       "fal",
+    //       "fa-\\w+",
+    //       "fa-\\w+-\\w+",
+    //       "fa-\\w+-\\w+-\\w+",
+    //       "fa-\\w+-\\w+-\\w+-\\w+",
+    //       "fa-\\w+-\\w+-\\w+-\\w+-\\w+",
+    //     ]
+    //   }
+    // ],
+
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          "builtin",
+          "external",
+          ["parent", "internal", "sibling"],
+          "index",
+          "object"
+        ],
+        "pathGroups": [
+          {
+            "pattern": "react*",
+            "group": "external",
+            "position": "before"
+          },
+          {
+            "pattern": "next*",
+            "group": "external",
+            "position": "before"
+          }
+        ],
+        "pathGroupsExcludedImportTypes": ["react*", "next*"],
+        "newlines-between": "always",
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        }
+      }
+    ]
+  },
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
