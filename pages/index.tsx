@@ -2,7 +2,7 @@ import * as React from "react"
 
 import Head from "next/head"
 
-import GridItem from "components/GridItem"
+import GridItemWrapper from "components/GridItemWrapper"
 import AlertsIllustration from "components/illustration/Alerts"
 import DashboardIllustration from "components/illustration/Dashboard"
 import DataExportIllustration from "components/illustration/DataExport"
@@ -22,33 +22,33 @@ const Home = () => {
       </Head>
 
       <main className="grid min-h-screen grid-cols-3">
-        <GridItem>
+        <GridItemWrapper>
           <QueryBuilderIllustration />
-        </GridItem>
-        <GridItem>
+        </GridItemWrapper>
+        <GridItemWrapper>
           <DashboardIllustration />
-        </GridItem>
-        <GridItem>
+        </GridItemWrapper>
+        <GridItemWrapper>
           <VisualizeIllustration />
-        </GridItem>
-        <GridItem>
+        </GridItemWrapper>
+        <GridItemWrapper>
           <DataExportIllustration />
-        </GridItem>
-        <GridItem>
+        </GridItemWrapper>
+        <GridItemWrapper>
           <SavedQueryIllustration />
-        </GridItem>
-        <GridItem>
+        </GridItemWrapper>
+        <GridItemWrapper>
           <PermissionsIllustration />
-        </GridItem>
-        <GridItem>
+        </GridItemWrapper>
+        <GridItemWrapper>
           <AlertsIllustration />
-        </GridItem>
-        <GridItem>
+        </GridItemWrapper>
+        <GridItemWrapper>
           <SharingIllustration />
-        </GridItem>
-        <GridItem>
+        </GridItemWrapper>
+        <GridItemWrapper>
           <PermissionsIllustration />
-        </GridItem>
+        </GridItemWrapper>
       </main>
     </div>
   )

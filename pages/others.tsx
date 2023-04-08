@@ -2,7 +2,7 @@ import * as React from "react"
 
 import Head from "next/head"
 
-import GridItem from "components/GridItem"
+import GridItemWrapper from "components/GridItemWrapper"
 import DataChangeAlertIllustration from "components/illustration/DataChangeAlert"
 import DataSourceConnectionIllustration from "components/illustration/DataSourceConnection"
 import DataThresholdAlertIllustration from "components/illustration/DataThresholdAlert"
@@ -21,49 +21,49 @@ const Other = () => {
       </Head>
 
       <main className="grid min-h-screen grid-cols-3">
-        <GridItem>
+        <GridItemWrapper>
           <SetAlertsIllustration />
-        </GridItem>
-        <GridItem>
+        </GridItemWrapper>
+        <GridItemWrapper>
           <DraxlrInSlackIllustration />
-        </GridItem>
+        </GridItemWrapper>
       </main>
       <main className="grid grid-cols-3">
-        <GridItem>
+        <GridItemWrapper>
           <div className="flex">
             <div className="m-auto">
               <DataSourceConnectionIllustration />
             </div>
           </div>
-        </GridItem>
-        <GridItem>
+        </GridItemWrapper>
+        <GridItemWrapper>
           <div className="flex">
             <div className="m-auto">
               <DataChangeAlertIllustration />
             </div>
           </div>
-        </GridItem>
-        <GridItem>
+        </GridItemWrapper>
+        <GridItemWrapper>
           <div className="flex">
             <div className="m-auto">
               <DataThresholdAlertIllustration />
             </div>
           </div>
-        </GridItem>
-        <GridItem>
+        </GridItemWrapper>
+        <GridItemWrapper>
           <div className="flex">
             <div className="m-auto">
               <TimelyUpdatesIllustration />
             </div>
           </div>
-        </GridItem>
-        <GridItem>
+        </GridItemWrapper>
+        <GridItemWrapper>
           <div className="flex">
             <div className="m-auto">
               <GroupDashboardIllustration />
             </div>
           </div>
-        </GridItem>
+        </GridItemWrapper>
       </main>
     </div>
   )
