@@ -36,9 +36,6 @@ const MyDocument: React.FC = () => {
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="SVG Animations" />
-        {/* Facebook App */}
-        <meta property="fb:admins" content="<fb-admin-id>" />
-        <meta property="fb:app_id" content="<fb-app-id>" />
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@jeetnirnejak" />
