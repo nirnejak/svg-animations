@@ -5,14 +5,15 @@
     "ecmaVersion": 2020,
     "ecmaFeatures": {
       "jsx": true
-    }
+    },
+    "project": ["./tsconfig.json"]
   },
   "env": {
     "browser": true,
     "es2021": true
   },
   "extends": [
-    "standard",
+    "standard-with-typescript",
     "eslint:recommended",
     "plugin:prettier/recommended",
     "plugin:jsx-a11y/recommended",
@@ -23,10 +24,7 @@
   ],
   "plugins": ["@typescript-eslint", "jsx-a11y", "tailwindcss"],
   "rules": {
-    "no-use-before-define": "off",
-    "@typescript-eslint/no-use-before-define": "error",
     "@typescript-eslint/no-explicit-any": "off",
-    "@typescript-eslint/no-empty-interface": "off",
 
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
@@ -36,25 +34,6 @@
 
     "react-hooks/exhaustive-deps": "warn",
     "react-hooks/rules-of-hooks": "error",
-
-    // Uncomment this if using font-awesome
-    // "tailwindcss/no-custom-classname": [
-    //   "error",
-    //   {
-    //     "whitelist": [
-    //       "fad",
-    //       "fab",
-    //       "fas",
-    //       "far",
-    //       "fal",
-    //       "fa-\\w+",
-    //       "fa-\\w+-\\w+",
-    //       "fa-\\w+-\\w+-\\w+",
-    //       "fa-\\w+-\\w+-\\w+-\\w+",
-    //       "fa-\\w+-\\w+-\\w+-\\w+-\\w+",
-    //     ]
-    //   }
-    // ],
 
     "import/order": [
       "error",
