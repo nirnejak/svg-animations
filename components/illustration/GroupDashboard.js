@@ -6,9 +6,7 @@ const GroupDashboard = () => {
   const controls = useAnimation()
 
   React.useEffect(() => {
-    controls.start("visible").catch((err) => {
-      console.log(err)
-    })
+    controls.set("visible")
   }, [controls])
 
   const circleVariants = {
