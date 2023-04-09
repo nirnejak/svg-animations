@@ -2,7 +2,7 @@ import * as React from "react"
 
 import { motion, useAnimation } from "framer-motion"
 
-import RestartButton from "components/RestartButton"
+import PlayButton from "components/PlayButton"
 
 const Visualize: React.FC = () => {
   const controls = useAnimation()
@@ -445,7 +445,7 @@ const Visualize: React.FC = () => {
           </filter>
         </defs>
       </motion.svg>
-      <RestartButton
+      <PlayButton
         onClick={() => {
           restartAnimation()
         }}

@@ -2,7 +2,7 @@ import * as React from "react"
 
 import { motion, useAnimation } from "framer-motion"
 
-import RestartButton from "components/RestartButton"
+import PlayButton from "components/PlayButton"
 
 const QueryBuilder: React.FC = () => {
   const controls = useAnimation()
@@ -779,7 +779,7 @@ const QueryBuilder: React.FC = () => {
           </clipPath>
         </defs>
       </motion.svg>
-      <RestartButton
+      <PlayButton
         onClick={() => {
           restartAnimation()
         }}
