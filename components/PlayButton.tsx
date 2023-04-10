@@ -19,9 +19,9 @@ const PlayButton: React.FC<Props> = ({ onClick }) => {
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       >
         <path d="M6 4v16" />
         <path d="M20 12L6 20" />
