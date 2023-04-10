@@ -21,7 +21,7 @@ const Home: React.FC = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="grid min-h-screen grid-cols-1 md:grid-cols-3">
+      <main className="grid min-h-screen grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
         <GridItemWrapper>
           <QueryBuilderIllustration />
         </GridItemWrapper>
