@@ -22,7 +22,7 @@ const QueryBuilder: React.FC = () => {
     visible: { scaleX: 1 },
   }
 
-  const restartAnimation = (): void => {
+  const playAnimation = (): void => {
     controls.set("hidden")
     controls.start("visible").catch((err) => {
       console.log(err)
@@ -781,7 +781,7 @@ const QueryBuilder: React.FC = () => {
       </motion.svg>
       <PlayButton
         onClick={() => {
-          restartAnimation()
+          playAnimation()
         }}
       />
     </div>

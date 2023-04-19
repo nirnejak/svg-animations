@@ -32,7 +32,7 @@ const Sharing: React.FC = () => {
     visible: { scale: 1, originX: 0, originY: 1 },
   }
 
-  const restartAnimation = (): void => {
+  const playAnimation = (): void => {
     controls.set("hidden")
     controls.start("visible").catch((err) => {
       console.log(err)
@@ -459,7 +459,7 @@ const Sharing: React.FC = () => {
       </motion.svg>
       <PlayButton
         onClick={() => {
-          restartAnimation()
+          playAnimation()
         }}
       />
     </div>

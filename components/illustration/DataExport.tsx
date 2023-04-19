@@ -27,7 +27,7 @@ const DataExport: React.FC = () => {
     visible: { scaleX: 1, originX: 0 },
   }
 
-  const restartAnimation = (): void => {
+  const playAnimation = (): void => {
     controls.set("hidden")
     controls.start("visible").catch((err) => {
       console.log(err)
@@ -591,7 +591,7 @@ const DataExport: React.FC = () => {
       </motion.svg>
       <PlayButton
         onClick={() => {
-          restartAnimation()
+          playAnimation()
         }}
       />
     </div>

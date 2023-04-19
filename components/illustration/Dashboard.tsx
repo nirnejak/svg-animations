@@ -22,7 +22,7 @@ const Dashboard: React.FC = () => {
     visible: { scaleY: 1, originY: 1 },
   }
 
-  const restartAnimation = (): void => {
+  const playAnimation = (): void => {
     controls.set("hidden")
     controls.start("visible").catch((err) => {
       console.log(err)
@@ -485,7 +485,7 @@ const Dashboard: React.FC = () => {
       </motion.svg>
       <PlayButton
         onClick={() => {
-          restartAnimation()
+          playAnimation()
         }}
       />
     </div>
