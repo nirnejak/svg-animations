@@ -16,14 +16,14 @@ const Header: React.FC = () => {
 
   return (
     <header className="flex w-full items-center justify-center p-2 text-sm text-gray-700">
-      <div className="mr-auto font-medium">Animated SVG Gallery</div>
+      <div className="mr-auto font-semibold">SVG Gallery</div>
       <div className="flex gap-1">
         {links.map((link, index) => (
           <Link
             key={index}
             className={classNames(
-              "rounded-md px-3 py-1.5 transition-colors hover:bg-gray-200",
-              router.pathname === link.path && "bg-gray-300"
+              "rounded-md px-3 py-1.5 font-semibold text-gray-900 transition-colors hover:bg-gray-200",
+              router.pathname === link.path && "bg-gray-200"
             )}
             href={link.path}
           >
