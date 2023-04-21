@@ -1,5 +1,6 @@
 import * as React from "react"
 
+import { motion } from "framer-motion"
 import Head from "next/head"
 
 import GridItemWrapper from "components/GridItemWrapper"
@@ -12,6 +13,18 @@ import SavedQueryIllustration from "components/illustration/SavedQuery"
 import SharingIllustration from "components/illustration/Sharing"
 import VisualizeIllustration from "components/illustration/Visualize"
 
+const container = {
+  hidden: { opacity: 1, scale: 0 },
+  visible: {
+    opacity: 1,
+    scale: 1,
+    transition: {
+      delayChildren: 0.3,
+      staggerChildren: 0.2,
+    },
+  },
+}
+
 const Home: React.FC = () => {
   return (
     <div>
@@ -21,7 +34,12 @@ const Home: React.FC = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="mb-4 mt-10 grid min-h-screen grid-cols-1 gap-3 px-3 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
+      <motion.main
+        variants={container}
+        initial="hidden"
+        animate="visible"
+        className="mb-4 mt-10 grid min-h-screen grid-cols-1 gap-3 px-3 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4"
+      >
         <GridItemWrapper>
           <QueryBuilderIllustration />
         </GridItemWrapper>
@@ -49,7 +67,7 @@ const Home: React.FC = () => {
         <GridItemWrapper>
           <PermissionsIllustration />
         </GridItemWrapper>
-      </main>
+      </motion.main>
     </div>
   )
 }
