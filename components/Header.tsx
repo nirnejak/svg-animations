@@ -15,27 +15,29 @@ const Header: React.FC = () => {
   const router = useRouter()
 
   return (
-    <header className="flex w-full items-center justify-center p-2 text-sm text-gray-700">
-      <div className="mr-auto font-semibold">SVG Gallery</div>
-      <div className="flex gap-1">
-        {links.map((link, index) => (
-          <Link
-            key={index}
-            className={classNames(
-              "rounded-md px-3 py-1.5 font-semibold text-gray-900 transition-colors hover:bg-gray-200",
-              router.pathname === link.path && "bg-gray-200"
-            )}
-            href={link.path}
-          >
-            {link.label}
-          </Link>
-        ))}
+    <header className="grid w-full grid-cols-3 items-center bg-white p-2 text-sm text-gray-700">
+      <div className="mr-auto text-base font-bold">SVG Gallery</div>
+      <div className="flex justify-center">
+        <div className="flex gap-1 rounded-md bg-gray-200 p-1">
+          {links.map((link, index) => (
+            <Link
+              key={index}
+              className={classNames(
+                "rounded-md px-3 py-1.5 font-semibold transition-colors hover:bg-gray-100",
+                router.pathname === link.path && "bg-white"
+              )}
+              href={link.path}
+            >
+              {link.label}
+            </Link>
+          ))}
+        </div>
       </div>
       <div className="ml-auto">
         <a
           href="https://github.com/nirnejak/svg-animations"
           target="_blank"
-          className="flex items-center gap-1 rounded-md px-3 py-1.5 hover:bg-gray-200"
+          className="flex items-center gap-1 rounded-md px-3 py-1.5 font-medium hover:bg-gray-200"
         >
           <span>View Source</span>
           <span>
