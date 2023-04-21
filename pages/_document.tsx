@@ -41,7 +41,7 @@ const MyDocument: React.FC = () => {
         <meta name="twitter:creator" content="@jeetnirnejak" />
         <meta name="twitter:site" content="@jeetnirnejak" />
       </Head>
-      <body className="overflow-x-hidden bg-zinc-50">
+      <body className="overflow-x-hidden bg-gray-100">
         <Main />
         <NextScript />
       </body>
