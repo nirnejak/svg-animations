@@ -21,7 +21,7 @@ const Other: React.FC = () => {
         variants={gridContainer}
         initial="hidden"
         animate="visible"
-        className="mb-4 mt-10 grid grid-cols-1 gap-3 px-3 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4"
+        className="grid grid-cols-1 gap-3 p-3 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4"
       >
         <GridItemWrapper>
           <SetAlertsIllustration />
