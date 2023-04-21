@@ -71,7 +71,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      sans: ["system-ui"],
+      sans: ["Satoshi", "system-ui"],
     },
   },
   variants: {
