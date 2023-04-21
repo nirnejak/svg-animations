@@ -12,18 +12,7 @@ import QueryBuilderIllustration from "components/illustration/QueryBuilder"
 import SavedQueryIllustration from "components/illustration/SavedQuery"
 import SharingIllustration from "components/illustration/Sharing"
 import VisualizeIllustration from "components/illustration/Visualize"
-
-const container = {
-  hidden: { opacity: 1, scale: 0 },
-  visible: {
-    opacity: 1,
-    scale: 1,
-    transition: {
-      delayChildren: 0.3,
-      staggerChildren: 0.2,
-    },
-  },
-}
+import { gridContainer } from "utils/animationConfig"
 
 const Home: React.FC = () => {
   return (
@@ -35,7 +24,7 @@ const Home: React.FC = () => {
       </Head>
 
       <motion.main
-        variants={container}
+        variants={gridContainer}
         initial="hidden"
         animate="visible"
         className="mb-4 mt-10 grid min-h-screen grid-cols-1 gap-3 px-3 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4"
