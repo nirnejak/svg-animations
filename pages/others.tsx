@@ -1,10 +1,12 @@
 import * as React from "react"
 
+import { motion } from "framer-motion"
 import Head from "next/head"
 
 import GridItemWrapper from "components/GridItemWrapper"
 import DraxlrInSlackIllustration from "components/illustration/DraxlrInSlack"
 import SetAlertsIllustration from "components/illustration/SetAlerts"
+import { gridContainer } from "utils/animationConfig"
 
 const Other: React.FC = () => {
   return (
@@ -15,14 +17,19 @@ const Other: React.FC = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="mb-4 mt-10 grid grid-cols-1 gap-3 px-3 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
+      <motion.main
+        variants={gridContainer}
+        initial="hidden"
+        animate="visible"
+        className="mb-4 mt-10 grid grid-cols-1 gap-3 px-3 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4"
+      >
         <GridItemWrapper>
           <SetAlertsIllustration />
         </GridItemWrapper>
         <GridItemWrapper>
           <DraxlrInSlackIllustration />
         </GridItemWrapper>
-      </main>
+      </motion.main>
     </div>
   )
 }
