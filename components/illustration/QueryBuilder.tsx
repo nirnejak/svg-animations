@@ -2,7 +2,6 @@ import * as React from "react"
 
 import { motion, useAnimation } from "framer-motion"
 
-import EnlargeButton from "components/EnlargeButton"
 import PlayButton from "components/PlayButton"
 
 const QueryBuilder: React.FC = () => {
@@ -780,18 +779,11 @@ const QueryBuilder: React.FC = () => {
           </clipPath>
         </defs>
       </motion.svg>
-      <div>
-        <EnlargeButton
-          onClick={() => {
-            playAnimation()
-          }}
-        />
-        <PlayButton
-          onClick={() => {
-            playAnimation()
-          }}
-        />
-      </div>
+      <PlayButton
+        onClick={() => {
+          playAnimation()
+        }}
+      />
     </div>
   )
 }
