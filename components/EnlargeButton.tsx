@@ -1,11 +1,26 @@
 import * as React from "react"
 
 import * as Tooltip from "@radix-ui/react-tooltip"
+import localFont from "next/font/local"
 
 interface Props {
   onClick: () => void
   isOpen: boolean
 }
+
+const satoshi = localFont({
+  variable: "--font-satoshi",
+  src: [
+    {
+      path: "../fonts/Satoshi-Variable.woff2",
+      style: "normal",
+    },
+    {
+      path: "../fonts/Satoshi-VariableItalic.woff2",
+      style: "italic",
+    },
+  ],
+})
 
 const EnlargeButton: React.FC<Props> = ({ onClick, isOpen }) => {
   return (
@@ -52,6 +67,7 @@ const EnlargeButton: React.FC<Props> = ({ onClick, isOpen }) => {
         <Tooltip.Portal>
           <Tooltip.Content
             className="z-20 select-none rounded-md bg-zinc-800 px-3.5 py-2.5 text-sm leading-none text-zinc-300 will-change-[transform,opacity] data-[state=delayed-open]:data-[side=bottom]:animate-slideUpAndFade data-[state=delayed-open]:data-[side=left]:animate-slideRightAndFade data-[state=delayed-open]:data-[side=right]:animate-slideLeftAndFade data-[state=delayed-open]:data-[side=top]:animate-slideDownAndFade"
+            style={satoshi.style}
             sideOffset={5}
           >
             {isOpen ? "Collapse" : "Expand"}
