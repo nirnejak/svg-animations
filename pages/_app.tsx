@@ -3,6 +3,7 @@ import * as React from "react"
 import type { AppProps } from "next/app"
 import localFont from "next/font/local"
 
+import Footer from "components/Footer"
 import Header from "components/Header"
 import classNames from "utils/classNames"
 
@@ -29,6 +30,7 @@ const MyApp: React.FC<AppProps> = (props) => {
     <main className={classNames(satoshi.variable, "font-sans")}>
       <Header />
       <Component {...pageProps} />
+      <Footer />
     </main>
   )
 }
