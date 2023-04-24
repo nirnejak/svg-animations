@@ -1,8 +1,8 @@
-import React from "react"
+import * as React from "react"
 
 import { motion, useAnimation } from "framer-motion"
 
-const GroupDashboard = () => {
+const GroupDashboard: React.FC = () => {
   const controls = useAnimation()
 
   const circleVariants = {

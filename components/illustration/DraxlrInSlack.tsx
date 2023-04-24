@@ -1,8 +1,8 @@
-import React from "react"
+import * as React from "react"
 
 import { motion, useAnimation } from "framer-motion"
 
-const DraxlrInSlack = () => {
+const DraxlrInSlack: React.FC = () => {
   const controls = useAnimation()
 
   const contentVariants = {
