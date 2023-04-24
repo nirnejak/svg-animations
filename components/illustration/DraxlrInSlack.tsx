@@ -51,7 +51,7 @@ const DraxlrInSlack: React.FC = () => {
           "fixed left-0 top-0 z-10 grid h-screen place-content-center bg-zinc-100/80 backdrop-blur"
       )}
     >
-      <div className={classNames("w-full", isModalOpen && "w-[700px]")}>
+      <div className={classNames(isModalOpen ? "w-[700px]" : "w-full")}>
         <motion.svg
           viewBox="0 0 403 430"
           fill="none"

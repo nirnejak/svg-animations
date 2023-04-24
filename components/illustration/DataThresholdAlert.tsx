@@ -36,7 +36,7 @@ const DataThresholdAlert: React.FC = () => {
           "fixed left-0 top-0 z-10 grid h-screen place-content-center bg-zinc-100/80 backdrop-blur"
       )}
     >
-      <div className={classNames("w-full", isModalOpen && "w-[700px]")}>
+      <div className="w-full">
         <motion.svg
           width="283"
           height="170"
