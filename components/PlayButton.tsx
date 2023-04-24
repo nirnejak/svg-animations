@@ -8,7 +8,7 @@ interface Props {
 
 const PlayButton: React.FC<Props> = ({ onClick }) => {
   return (
-    <Tooltip.Provider delayDuration={300}>
+    <Tooltip.Provider delayDuration={200}>
       <Tooltip.Root key={"Play Animation"}>
         <Tooltip.Trigger asChild>
           <button
