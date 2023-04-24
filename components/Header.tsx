@@ -1,5 +1,6 @@
 import React from "react"
 
+import { motion } from "framer-motion"
 import Link from "next/link"
 import { useRouter } from "next/router"
 
@@ -15,7 +16,12 @@ const Header: React.FC = () => {
   const router = useRouter()
 
   return (
-    <header className="grid w-full grid-cols-3 items-center bg-white p-2 text-sm text-gray-700">
+    <motion.header
+      initial={{ translateY: "-100%" }}
+      animate={{ translateY: 0 }}
+      transition={{ delay: 2 }}
+      className="grid w-full grid-cols-3 items-center bg-white p-2 text-sm text-gray-700"
+    >
       <div className="mr-auto text-base font-bold">SVG Gallery</div>
       <div className="flex justify-center">
         <div className="flex gap-1 rounded-md bg-gray-200 p-1">
@@ -54,7 +60,7 @@ const Header: React.FC = () => {
           </span>
         </a>
       </div>
-    </header>
+    </motion.header>
   )
 }
 
