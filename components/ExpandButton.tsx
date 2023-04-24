@@ -22,7 +22,7 @@ const satoshi = localFont({
   ],
 })
 
-const EnlargeButton: React.FC<Props> = ({ onClick, isOpen }) => {
+const ExpandButton: React.FC<Props> = ({ onClick, isOpen }) => {
   return (
     <Tooltip.Provider delayDuration={200}>
       <Tooltip.Root key={isOpen ? "Collapse" : "Expand"}>
@@ -79,4 +79,4 @@ const EnlargeButton: React.FC<Props> = ({ onClick, isOpen }) => {
   )
 }
 
-export default EnlargeButton
+export default ExpandButton

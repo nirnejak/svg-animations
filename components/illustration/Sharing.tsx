@@ -2,7 +2,7 @@ import * as React from "react"
 
 import { motion, useAnimation } from "framer-motion"
 
-import EnlargeButton from "components/EnlargeButton"
+import ExpandButton from "components/ExpandButton"
 import PlayButton from "components/PlayButton"
 import classNames from "utils/classNames"
 
@@ -469,7 +469,7 @@ const Sharing: React.FC = () => {
           </defs>
         </motion.svg>
         <div>
-          <EnlargeButton
+          <ExpandButton
             isOpen={isModalOpen}
             onClick={() => {
               setIsModalOpen(!isModalOpen)
