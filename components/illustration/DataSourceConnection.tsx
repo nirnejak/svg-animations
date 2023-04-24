@@ -2,7 +2,7 @@ import * as React from "react"
 
 import { motion, useAnimation } from "framer-motion"
 
-const Visualize: React.FC = () => {
+const DataSourceConnection: React.FC = () => {
   const controls = useAnimation()
 
   const contentVariants = {
@@ -105,4 +105,4 @@ const Visualize: React.FC = () => {
   )
 }
 
-export default Visualize
+export default DataSourceConnection
