@@ -33,28 +33,28 @@ const Home: React.FC = () => {
           <QueryBuilderIllustration />
         </GridItemWrapper>
         <GridItemWrapper>
-          <DashboardIllustration />
-        </GridItemWrapper>
-        <GridItemWrapper>
           <VisualizeIllustration />
-        </GridItemWrapper>
-        <GridItemWrapper>
-          <DataExportIllustration />
         </GridItemWrapper>
         <GridItemWrapper>
           <SavedQueryIllustration />
         </GridItemWrapper>
         <GridItemWrapper>
+          <DataExportIllustration />
+        </GridItemWrapper>
+        <GridItemWrapper>
           <PermissionsIllustration />
+        </GridItemWrapper>
+        <GridItemWrapper>
+          <PermissionsIllustration />
+        </GridItemWrapper>
+        <GridItemWrapper>
+          <DashboardIllustration />
         </GridItemWrapper>
         <GridItemWrapper>
           <AlertsIllustration />
         </GridItemWrapper>
         <GridItemWrapper>
           <SharingIllustration />
-        </GridItemWrapper>
-        <GridItemWrapper>
-          <PermissionsIllustration />
         </GridItemWrapper>
       </motion.main>
     </div>
