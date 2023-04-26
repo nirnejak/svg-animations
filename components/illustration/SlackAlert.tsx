@@ -6,7 +6,7 @@ import ExpandButton from "components/ExpandButton"
 import PlayButton from "components/PlayButton"
 import classNames from "utils/classNames"
 
-const DraxlrInSlack: React.FC = () => {
+const SlackAlert: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = React.useState(false)
 
   const controls = useAnimation()
@@ -463,4 +463,4 @@ const DraxlrInSlack: React.FC = () => {
   )
 }
 
-export default DraxlrInSlack
+export default SlackAlert

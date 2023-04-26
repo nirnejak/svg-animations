@@ -4,8 +4,8 @@ import { motion } from "framer-motion"
 import Head from "next/head"
 
 import GridItemWrapper from "components/GridItemWrapper"
-import DraxlrInSlackIllustration from "components/illustration/DraxlrInSlack"
 import SetAlertsIllustration from "components/illustration/SetAlerts"
+import SlackAlertIllustration from "components/illustration/SlackAlert"
 import { gridContainer } from "utils/animationConfig"
 
 const Other: React.FC = () => {
@@ -27,7 +27,7 @@ const Other: React.FC = () => {
           <SetAlertsIllustration />
         </GridItemWrapper>
         <GridItemWrapper>
-          <DraxlrInSlackIllustration />
+          <SlackAlertIllustration />
         </GridItemWrapper>
       </motion.main>
     </div>
