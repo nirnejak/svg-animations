@@ -40,6 +40,12 @@ const MyDocument: React.FC = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@jeetnirnejak" />
         <meta name="twitter:site" content="@jeetnirnejak" />
+
+        <script
+          defer
+          data-domain="svg-animations-gallery.vercel.app"
+          src="https://plausible.io/js/script.js"
+        />
       </Head>
       <body className="overflow-x-hidden bg-gray-100">
         <Main />
