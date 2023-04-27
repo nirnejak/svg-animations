@@ -6,10 +6,10 @@ SVG Animations with Framer Motion
 
 ## Screenshots
 
-<img src="https://raw.githubusercontent.com/nirnejak/svg-animations/master/screenshots/01-features.png" alt="Feature Illustrations" width="24%" />
-<img src="https://raw.githubusercontent.com/nirnejak/svg-animations/master/screenshots/02-details.png" alt="Details Illustrations" width="24%" />
-<img src="https://raw.githubusercontent.com/nirnejak/svg-animations/master/screenshots/03-others.png" alt="Other Illustrations" width="24%" />
-<img src="https://raw.githubusercontent.com/nirnejak/svg-animations/master/screenshots/04-fullscreen.png" alt="Fullscreen view" width="24%" />
+![Feature Illustrations](https://raw.githubusercontent.com/nirnejak/svg-animations/master/screenshots/01-features.png)
+![Details Illustrations](https://raw.githubusercontent.com/nirnejak/svg-animations/master/screenshots/02-details.png)
+![Other Illustrations](https://raw.githubusercontent.com/nirnejak/svg-animations/master/screenshots/03-others.png)
+![Fullscreen view](https://raw.githubusercontent.com/nirnejak/svg-animations/master/screenshots/04-fullscreen.png)
 
 ## Available Scripts
 
