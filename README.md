@@ -6,6 +6,13 @@
 
 SVG Animations with Framer Motion
 
+## Screenshots
+
+![Feature Illustrations]('/master/screenshots/01-features.png')
+![Details Illustrations]()
+![Other Illustrations]()
+![Fullscreen view]()
+
 ## Available Scripts
 
 **Install Dependencies**
