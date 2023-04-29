@@ -31,7 +31,7 @@ const Header: React.FC = () => {
               className={classNames(
                 "rounded px-3 py-1.5 font-semibold transition-all hover:text-gray-900",
                 router.pathname === link.path
-                  ? "bg-white text-gray-900 shadow-sm"
+                  ? "toggle-selected-item bg-white text-gray-900"
                   : "text-gray-500"
               )}
               href={link.path}
