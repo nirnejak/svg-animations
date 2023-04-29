@@ -24,13 +24,13 @@ const Header: React.FC = () => {
     >
       <div className="mr-auto text-base font-bold">SVG Gallery</div>
       <div className="flex justify-center">
-        <div className="flex gap-1 rounded-md bg-gray-200 p-1">
+        <div className="toggle-group flex gap-1 rounded-md bg-gray-200 p-1">
           {links.map((link, index) => (
             <Link
               key={index}
               className={classNames(
-                "rounded-md px-3 py-1.5 font-semibold transition-colors hover:bg-gray-100",
-                router.pathname === link.path && "bg-white"
+                "rounded px-3 py-1.5 font-semibold transition-colors hover:bg-gray-100",
+                router.pathname === link.path && "bg-white shadow-sm"
               )}
               href={link.path}
             >

@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.toggle-group {
+  --tw-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.1),
+    inset 0 0 8px 0 rgba(0, 0, 0, 0.05), 0 0 1px 1px hsla(0, 0%, 100%, 0.5);
+  --tw-shadow-colored: inset 0 1px 2px 0 var(--tw-shadow-color),
+    inset 0 0 8px 0 var(--tw-shadow-color), 0 0 1px 1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
