@@ -41,7 +41,31 @@ const Header: React.FC = () => {
           ))}
         </div>
       </div>
-      <div className="ml-auto">
+      <div className="ml-auto flex gap-0.5">
+        <a
+          href="https://nirnejak.com/"
+          target="_blank"
+          className="flex items-center gap-1 rounded-md px-3 py-1.5 font-medium hover:bg-gray-200"
+        >
+          <span>My other work</span>
+          <span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="17"
+              height="17"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M13.5 10.5L21 3" />
+              <path d="M16 3h5v5" />
+              <path d="M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5" />
+            </svg>
+          </span>
+        </a>
         <a
           href="https://github.com/nirnejak/svg-animations"
           target="_blank"
