@@ -11,7 +11,14 @@ const Footer: React.FC = () => {
       className="fixed bottom-5 left-1/2 rounded-md bg-white px-3 py-2 text-sm text-gray-700 shadow-lg"
     >
       Designed in <strong>Figma</strong>, animated with{" "}
-      <strong>Framer Motion</strong>
+      <strong>Framer Motion</strong> by{" "}
+      <a
+        className="font-bold underline"
+        target="_blank"
+        href="https://nirnejak.com/"
+      >
+        nirnejak
+      </a>
     </motion.footer>
   )
 }
