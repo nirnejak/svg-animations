@@ -16,8 +16,7 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src"],
-      "@ui/*": ["./src/ui"]
+      "@/*": ["./src"]
     },
     "strictNullChecks": true
   },
