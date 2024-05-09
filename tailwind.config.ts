@@ -1,28 +1,29 @@
-/** @type {import('tailwindcss').Config} */
+import type { Config } from "tailwindcss"
 
-module.exports = {
+const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       keyframes: {
         slideDownAndFade: {
-          from: { opacity: 0, transform: "translateY(-10px)" },
-          to: { opacity: 1, transform: "translateY(0)" },
+          from: { opacity: "0", transform: "translateY(-10px)" },
+          to: { opacity: "1", transform: "translateY(0)" },
         },
         slideLeftAndFade: {
-          from: { opacity: 0, transform: "translateX(-10px)" },
-          to: { opacity: 1, transform: "translateX(0)" },
+          from: { opacity: "0", transform: "translateX(-10px)" },
+          to: { opacity: "1", transform: "translateX(0)" },
         },
         slideUpAndFade: {
-          from: { opacity: 0, transform: "translateY(10px)" },
-          to: { opacity: 1, transform: "translateY(0)" },
+          from: { opacity: "0", transform: "translateY(10px)" },
+          to: { opacity: "1", transform: "translateY(0)" },
         },
         slideRightAndFade: {
-          from: { opacity: 0, transform: "translateX(10px)" },
-          to: { opacity: 1, transform: "translateX(0)" },
+          from: { opacity: "0", transform: "translateX(10px)" },
+          to: { opacity: "1", transform: "translateX(0)" },
         },
         slideDown: {
           from: { transform: "translateY(-10px)" },
@@ -45,8 +46,8 @@ module.exports = {
           to: { transform: "rotate(-3deg)" },
         },
         scale: {
-          from: { opacity: 0, transform: "scale(0)" },
-          to: { opacity: 1, transform: "scale(1)" },
+          from: { opacity: "0", transform: "scale(0)" },
+          to: { opacity: "1", transform: "scale(1)" },
         },
         rise: {
           from: { transform: "translate(-50%, -40%) scale(0.95)" },
@@ -79,3 +80,5 @@ module.exports = {
   },
   plugins: [],
 }
+
+export default config
