@@ -20,10 +20,10 @@ const Header: React.FC = () => {
       initial={{ translateY: "-100%" }}
       animate={{ translateY: 0 }}
       transition={{ delay: 2 }}
-      className="grid w-full grid-cols-3 items-center bg-white p-2 text-sm text-gray-700"
+      className="grid w-full grid-cols-3 justify-start gap-3 bg-white p-2 text-sm text-gray-700 md:justify-between md:gap-0"
     >
       <div className="mr-auto text-base font-bold">SVG Gallery</div>
-      <div className="flex justify-center">
+      <div className="order-3 col-span-3 flex justify-center md:order-2 md:col-span-1">
         <div className="toggle-group flex gap-1 rounded-md bg-gray-200 p-1">
           {links.map((link, index) => (
             <Link
@@ -41,7 +41,7 @@ const Header: React.FC = () => {
           ))}
         </div>
       </div>
-      <div className="ml-auto flex gap-0.5">
+      <div className="order-2 col-span-2 ml-auto flex gap-0.5 md:order-3 md:col-span-1">
         <a
           href="https://nirnejak.com/"
           target="_blank"
