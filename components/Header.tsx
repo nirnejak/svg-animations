@@ -20,7 +20,7 @@ const Header: React.FC = () => {
       initial={{ translateY: "-100%" }}
       animate={{ translateY: 0 }}
       transition={{ delay: 2 }}
-      className="grid w-full grid-cols-3 justify-start gap-3 bg-white p-2 text-sm text-gray-700 md:justify-between md:gap-0"
+      className="grid w-full grid-cols-3 items-center justify-start gap-3 bg-white p-2 text-sm text-gray-700 md:justify-between md:gap-0"
     >
       <div className="mr-auto text-base font-bold">SVG Gallery</div>
       <div className="order-3 col-span-3 flex justify-center md:order-2 md:col-span-1">
