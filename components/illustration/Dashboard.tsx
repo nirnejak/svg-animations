@@ -488,6 +488,7 @@ const Dashboard: React.FC<{ isExpanded?: boolean }> = ({
         </defs>
       </motion.svg>
       <PlayButton
+        isExpanded={isExpanded}
         onClick={() => {
           playAnimation()
         }}

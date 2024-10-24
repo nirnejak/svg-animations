@@ -373,6 +373,7 @@ const GroupDashboard: React.FC<{ isExpanded?: boolean }> = ({
         />
       </motion.svg>
       <PlayButton
+        isExpanded={isExpanded}
         onClick={() => {
           playAnimation()
         }}

@@ -393,6 +393,7 @@ const SavedQuery: React.FC<{ isExpanded?: boolean }> = ({
         </defs>
       </motion.svg>
       <PlayButton
+        isExpanded={isExpanded}
         onClick={() => {
           playAnimation()
         }}

@@ -4,10 +4,11 @@ import * as React from "react"
 import * as Tooltip from "@radix-ui/react-tooltip"
 
 interface Props {
+  isExpanded: boolean
   onClick: () => void
 }
 
-const PlayButton: React.FC<Props> = ({ onClick }) => {
+const PlayButton: React.FC<Props> = ({ isExpanded, onClick }) => {
   return (
     <Tooltip.Provider delayDuration={200}>
       <Tooltip.Root key={"Play Animation"}>

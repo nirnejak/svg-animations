@@ -639,6 +639,7 @@ const Alerts: React.FC<{ isExpanded?: boolean }> = ({ isExpanded = false }) => {
         </defs>
       </motion.svg>
       <PlayButton
+        isExpanded={isExpanded}
         onClick={() => {
           playAnimation()
         }}
