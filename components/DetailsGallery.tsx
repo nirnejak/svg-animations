@@ -3,14 +3,13 @@ import * as React from "react"
 
 import { motion } from "framer-motion"
 
-import Modal from "./Modal"
+import Modal, { useModal } from "./Modal"
 import ExpandButton from "components/ExpandButton"
 import DataChangeAlertIllustration from "components/illustration/DataChangeAlert"
 import DataSourceConnectionIllustration from "components/illustration/DataSourceConnection"
 import DataThresholdAlertIllustration from "components/illustration/DataThresholdAlert"
 import GroupDashboardIllustration from "components/illustration/GroupDashboard"
 import TimelyUpdatesIllustration from "components/illustration/TimelyUpdates"
-import useModal from "hooks/useModal"
 import { gridContainerVariants, gridItemVariants } from "utils/animationConfig"
 
 const DetailsGallery: React.FC = () => {

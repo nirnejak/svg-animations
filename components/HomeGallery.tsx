@@ -3,7 +3,7 @@ import * as React from "react"
 
 import { motion } from "framer-motion"
 
-import Modal from "./Modal"
+import Modal, { useModal } from "./Modal"
 import ExpandButton from "components/ExpandButton"
 import AlertsIllustration from "components/illustration/Alerts"
 import DashboardIllustration from "components/illustration/Dashboard"
@@ -13,7 +13,6 @@ import QueryBuilderIllustration from "components/illustration/QueryBuilder"
 import SavedQueryIllustration from "components/illustration/SavedQuery"
 import SharingIllustration from "components/illustration/Sharing"
 import VisualizeIllustration from "components/illustration/Visualize"
-import useModal from "hooks/useModal"
 import { gridContainerVariants, gridItemVariants } from "utils/animationConfig"
 
 const HomeGallery: React.FC = () => {

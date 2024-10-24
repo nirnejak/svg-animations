@@ -3,11 +3,10 @@ import * as React from "react"
 
 import { motion } from "framer-motion"
 
-import Modal from "./Modal"
+import Modal, { useModal } from "./Modal"
 import ExpandButton from "components/ExpandButton"
 import SetAlertsIllustration from "components/illustration/SetAlerts"
 import SlackAlertIllustration from "components/illustration/SlackAlert"
-import useModal from "hooks/useModal"
 import { gridContainerVariants, gridItemVariants } from "utils/animationConfig"
 
 const OthersGallery: React.FC = () => {
