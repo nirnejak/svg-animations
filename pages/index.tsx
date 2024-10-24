@@ -11,7 +11,7 @@ import QueryBuilderIllustration from "components/illustration/QueryBuilder"
 import SavedQueryIllustration from "components/illustration/SavedQuery"
 import SharingIllustration from "components/illustration/Sharing"
 import VisualizeIllustration from "components/illustration/Visualize"
-import { gridContainerVariants, itemVariants } from "utils/animationConfig"
+import { gridContainerVariants, gridItemVariants } from "utils/animationConfig"
 
 const Home: React.FC = () => {
   return (
@@ -29,55 +29,55 @@ const Home: React.FC = () => {
         className="mb-20 grid min-h-screen grid-cols-1 gap-3 p-3 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4"
       >
         <motion.div
-          variants={itemVariants}
+          variants={gridItemVariants}
           className="rounded-3xl bg-zinc-50 p-10"
         >
           <QueryBuilderIllustration />
         </motion.div>
         <motion.div
-          variants={itemVariants}
+          variants={gridItemVariants}
           className="rounded-3xl bg-zinc-50 p-10"
         >
           <VisualizeIllustration />
         </motion.div>
         <motion.div
-          variants={itemVariants}
+          variants={gridItemVariants}
           className="rounded-3xl bg-zinc-50 p-10"
         >
           <SavedQueryIllustration />
         </motion.div>
         <motion.div
-          variants={itemVariants}
+          variants={gridItemVariants}
           className="rounded-3xl bg-zinc-50 p-10"
         >
           <DataExportIllustration />
         </motion.div>
         <motion.div
-          variants={itemVariants}
+          variants={gridItemVariants}
           className="rounded-3xl bg-zinc-50 p-10"
         >
           <PermissionsIllustration />
         </motion.div>
         <motion.div
-          variants={itemVariants}
+          variants={gridItemVariants}
           className="rounded-3xl bg-zinc-50 p-10"
         >
           <PermissionsIllustration />
         </motion.div>
         <motion.div
-          variants={itemVariants}
+          variants={gridItemVariants}
           className="rounded-3xl bg-zinc-50 p-10"
         >
           <DashboardIllustration />
         </motion.div>
         <motion.div
-          variants={itemVariants}
+          variants={gridItemVariants}
           className="rounded-3xl bg-zinc-50 p-10"
         >
           <AlertsIllustration />
         </motion.div>
         <motion.div
-          variants={itemVariants}
+          variants={gridItemVariants}
           className="rounded-3xl bg-zinc-50 p-10"
         >
           <SharingIllustration />

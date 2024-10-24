@@ -10,7 +10,7 @@ export const gridContainerVariants = {
   },
 }
 
-export const itemVariants = {
+export const gridItemVariants = {
   hidden: { y: 20, opacity: 0 },
   visible: {
     y: 0,

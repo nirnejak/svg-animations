@@ -8,7 +8,7 @@ import DataSourceConnectionIllustration from "components/illustration/DataSource
 import DataThresholdAlertIllustration from "components/illustration/DataThresholdAlert"
 import GroupDashboardIllustration from "components/illustration/GroupDashboard"
 import TimelyUpdatesIllustration from "components/illustration/TimelyUpdates"
-import { gridContainerVariants, itemVariants } from "utils/animationConfig"
+import { gridContainerVariants, gridItemVariants } from "utils/animationConfig"
 
 const Other: React.FC = () => {
   return (
@@ -26,7 +26,7 @@ const Other: React.FC = () => {
         className="grid grid-cols-1 gap-3 p-3 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4"
       >
         <motion.div
-          variants={itemVariants}
+          variants={gridItemVariants}
           className="rounded-3xl bg-zinc-50 p-10"
         >
           <div className="flex">
@@ -36,7 +36,7 @@ const Other: React.FC = () => {
           </div>
         </motion.div>
         <motion.div
-          variants={itemVariants}
+          variants={gridItemVariants}
           className="rounded-3xl bg-zinc-50 p-10"
         >
           <div className="flex">
@@ -46,7 +46,7 @@ const Other: React.FC = () => {
           </div>
         </motion.div>
         <motion.div
-          variants={itemVariants}
+          variants={gridItemVariants}
           className="rounded-3xl bg-zinc-50 p-10"
         >
           <div className="flex">
@@ -56,7 +56,7 @@ const Other: React.FC = () => {
           </div>
         </motion.div>
         <motion.div
-          variants={itemVariants}
+          variants={gridItemVariants}
           className="rounded-3xl bg-zinc-50 p-10"
         >
           <div className="flex">
@@ -66,7 +66,7 @@ const Other: React.FC = () => {
           </div>
         </motion.div>
         <motion.div
-          variants={itemVariants}
+          variants={gridItemVariants}
           className="rounded-3xl bg-zinc-50 p-10"
         >
           <div className="flex">
