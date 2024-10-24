@@ -1,8 +1,9 @@
 "use client"
 import * as React from "react"
 
-import { AnimatePresence, motion } from "framer-motion"
+import { motion } from "framer-motion"
 
+import Modal from "./Modal"
 import ExpandButton from "components/ExpandButton"
 import DataChangeAlertIllustration from "components/illustration/DataChangeAlert"
 import DataSourceConnectionIllustration from "components/illustration/DataSourceConnection"
@@ -90,29 +91,15 @@ const DetailsGallery: React.FC = () => {
         </motion.div>
       </motion.main>
 
-      <AnimatePresence>
-        {isOpen && (
-          <motion.div
-            initial={{ translateY: 10, opacity: 0 }}
-            animate={{ translateY: 0, opacity: 1 }}
-            exit={{ translateY: 10, opacity: 0 }}
-            className="fixed left-0 top-0 z-10 grid h-screen w-screen place-content-center bg-zinc-100/80 backdrop-blur"
-            onClick={() => {
-              setIsOpen(!isOpen)
-              setContent(null)
-            }}
-          >
-            {content}
-            <ExpandButton
-              isOpen={isOpen}
-              onClick={() => {
-                setIsOpen(!isOpen)
-                setContent(null)
-              }}
-            />
-          </motion.div>
-        )}
-      </AnimatePresence>
+      <Modal
+        isOpen={isOpen}
+        onClose={() => {
+          setIsOpen(!isOpen)
+          setContent(null)
+        }}
+      >
+        {content}
+      </Modal>
     </>
   )
 }
