@@ -42,7 +42,6 @@ const Alerts: React.FC = () => {
   return (
     <div
       className={classNames(
-        "w-full",
         isModalOpen &&
           "fixed left-0 top-0 z-10 grid h-screen place-content-center bg-zinc-100/40 backdrop-blur"
       )}

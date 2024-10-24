@@ -13,10 +13,7 @@ const item = {
 const GridItemWrapper: React.FC<{ children: React.ReactNode }> = ({
   children,
 }) => (
-  <motion.div
-    variants={item}
-    className="relative flex flex-col items-center justify-center rounded-3xl bg-zinc-50 p-10"
-  >
+  <motion.div variants={item} className="rounded-3xl bg-zinc-50 p-10">
     {children}
   </motion.div>
 )
