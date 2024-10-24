@@ -13,7 +13,8 @@ const PlayButton: React.FC<Props> = ({ onClick }) => {
       <Tooltip.Root key={"Play Animation"}>
         <Tooltip.Trigger asChild>
           <button
-            onClick={() => {
+            onClick={(e) => {
+              e.stopPropagation()
               onClick()
             }}
             className="absolute bottom-2 right-2 rounded-full bg-gray-200 p-3 text-xs text-gray-700 outline-none transition-transform hover:bg-gray-300 focus:bg-gray-300 active:scale-95"
