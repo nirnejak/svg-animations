@@ -1,11 +1,9 @@
 export const gridContainerVariants = {
   hidden: {
-    translateY: 10,
     opacity: 1,
     scale: 0,
   },
   visible: {
-    translateY: 0,
     opacity: 1,
     scale: 1,
     transition: {
