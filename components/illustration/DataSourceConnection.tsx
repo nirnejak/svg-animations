@@ -41,8 +41,6 @@ const DataSourceConnection: React.FC<{ isExpanded?: boolean }> = ({
   return (
     <div className={classNames(isExpanded ? "w-[700px]" : "w-full")}>
       <motion.svg
-        width="286"
-        height="170"
         viewBox="0 0 286 170"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

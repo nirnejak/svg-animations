@@ -45,88 +45,68 @@ const DetailsGallery: React.FC = () => {
       >
         <motion.div
           variants={gridItemVariants}
-          className="relative rounded-3xl bg-zinc-50 p-10"
+          className="relative rounded-3xl bg-zinc-50 p-20"
         >
-          <div className="flex">
-            <div className="m-auto">
-              <DataSourceConnectionIllustration />
-              <ExpandButton
-                isOpen={isOpen}
-                onClick={() => {
-                  setIsOpen(!isOpen)
-                  setContent(<DataSourceConnectionIllustration isExpanded />)
-                }}
-              />
-            </div>
-          </div>
+          <DataSourceConnectionIllustration />
+          <ExpandButton
+            isOpen={isOpen}
+            onClick={() => {
+              setIsOpen(!isOpen)
+              setContent(<DataSourceConnectionIllustration isExpanded />)
+            }}
+          />
         </motion.div>
         <motion.div
           variants={gridItemVariants}
-          className="relative rounded-3xl bg-zinc-50 p-10"
+          className="relative rounded-3xl bg-zinc-50 p-20"
         >
-          <div className="flex">
-            <div className="m-auto">
-              <DataChangeAlertIllustration />
-              <ExpandButton
-                isOpen={isOpen}
-                onClick={() => {
-                  setIsOpen(!isOpen)
-                  setContent(<DataChangeAlertIllustration isExpanded />)
-                }}
-              />
-            </div>
-          </div>
+          <DataChangeAlertIllustration />
+          <ExpandButton
+            isOpen={isOpen}
+            onClick={() => {
+              setIsOpen(!isOpen)
+              setContent(<DataChangeAlertIllustration isExpanded />)
+            }}
+          />
         </motion.div>
         <motion.div
           variants={gridItemVariants}
-          className="relative rounded-3xl bg-zinc-50 p-10"
+          className="relative rounded-3xl bg-zinc-50 p-20"
         >
-          <div className="flex">
-            <div className="m-auto">
-              <DataThresholdAlertIllustration />
-              <ExpandButton
-                isOpen={isOpen}
-                onClick={() => {
-                  setIsOpen(!isOpen)
-                  setContent(<DataThresholdAlertIllustration isExpanded />)
-                }}
-              />
-            </div>
-          </div>
+          <DataThresholdAlertIllustration />
+          <ExpandButton
+            isOpen={isOpen}
+            onClick={() => {
+              setIsOpen(!isOpen)
+              setContent(<DataThresholdAlertIllustration isExpanded />)
+            }}
+          />
         </motion.div>
         <motion.div
           variants={gridItemVariants}
-          className="relative rounded-3xl bg-zinc-50 p-10"
+          className="relative rounded-3xl bg-zinc-50 p-20"
         >
-          <div className="flex">
-            <div className="m-auto">
-              <TimelyUpdatesIllustration />
-              <ExpandButton
-                isOpen={isOpen}
-                onClick={() => {
-                  setIsOpen(!isOpen)
-                  setContent(<TimelyUpdatesIllustration isExpanded />)
-                }}
-              />
-            </div>
-          </div>
+          <TimelyUpdatesIllustration />
+          <ExpandButton
+            isOpen={isOpen}
+            onClick={() => {
+              setIsOpen(!isOpen)
+              setContent(<TimelyUpdatesIllustration isExpanded />)
+            }}
+          />
         </motion.div>
         <motion.div
           variants={gridItemVariants}
-          className="relative rounded-3xl bg-zinc-50 p-10"
+          className="relative rounded-3xl bg-zinc-50 p-20"
         >
-          <div className="flex">
-            <div className="m-auto">
-              <GroupDashboardIllustration />
-              <ExpandButton
-                isOpen={isOpen}
-                onClick={() => {
-                  setIsOpen(!isOpen)
-                  setContent(<GroupDashboardIllustration isExpanded />)
-                }}
-              />
-            </div>
-          </div>
+          <GroupDashboardIllustration />
+          <ExpandButton
+            isOpen={isOpen}
+            onClick={() => {
+              setIsOpen(!isOpen)
+              setContent(<GroupDashboardIllustration isExpanded />)
+            }}
+          />
         </motion.div>
       </motion.main>
 
