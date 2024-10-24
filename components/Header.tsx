@@ -9,8 +9,8 @@ import classNames from "utils/classNames"
 
 const links = [
   { label: "Features", path: "/" },
-  { label: "Details", path: "/details" },
-  { label: "Others", path: "/others" },
+  { label: "Details", path: "/details/" },
+  { label: "Others", path: "/others/" },
 ]
 
 const Header: React.FC = () => {
