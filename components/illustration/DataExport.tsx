@@ -4,10 +4,11 @@ import { motion, useAnimation } from "framer-motion"
 
 import ExpandButton from "components/ExpandButton"
 import PlayButton from "components/PlayButton"
+import useModal from "hooks/useModal"
 import classNames from "utils/classNames"
 
 const DataExport: React.FC = () => {
-  const [isModalOpen, setIsModalOpen] = React.useState(false)
+  const [isModalOpen, setIsModalOpen] = useModal()
 
   const controls = useAnimation()
 
