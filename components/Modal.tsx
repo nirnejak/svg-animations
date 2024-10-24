@@ -26,7 +26,7 @@ const Modal: React.FC<Props> = ({ isOpen, onClose, children }) => {
         >
           {children}
           <ExpandButton
-            isOpen={isOpen}
+            isExpanded={isOpen}
             onClick={() => {
               onClose()
             }}

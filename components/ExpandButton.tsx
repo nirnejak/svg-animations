@@ -5,13 +5,13 @@ import * as Tooltip from "@radix-ui/react-tooltip"
 
 interface Props {
   onClick: () => void
-  isOpen: boolean
+  isExpanded: boolean
 }
 
-const ExpandButton: React.FC<Props> = ({ onClick, isOpen }) => {
+const ExpandButton: React.FC<Props> = ({ onClick, isExpanded }) => {
   return (
     <Tooltip.Provider delayDuration={200}>
-      <Tooltip.Root key={isOpen ? "Collapse" : "Expand"}>
+      <Tooltip.Root key={isExpanded ? "Collapse" : "Expand"}>
         <Tooltip.Trigger asChild>
           <button
             onClick={() => {
@@ -19,7 +19,7 @@ const ExpandButton: React.FC<Props> = ({ onClick, isOpen }) => {
             }}
             className="absolute bottom-2 right-14 rounded-full bg-gray-200 p-3 text-xs text-gray-700 outline-none transition-transform hover:bg-gray-300 focus:bg-gray-300 active:scale-95"
           >
-            {isOpen ? (
+            {isExpanded ? (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -55,7 +55,7 @@ const ExpandButton: React.FC<Props> = ({ onClick, isOpen }) => {
             className="z-20 select-none rounded-md bg-zinc-800 px-3.5 py-2.5 text-sm leading-none text-zinc-300 will-change-[transform,opacity] data-[state=delayed-open]:data-[side=bottom]:animate-slideUpAndFade data-[state=delayed-open]:data-[side=left]:animate-slideRightAndFade data-[state=delayed-open]:data-[side=right]:animate-slideLeftAndFade data-[state=delayed-open]:data-[side=top]:animate-slideDownAndFade"
             sideOffset={5}
           >
-            {isOpen ? "Collapse" : "Expand"}
+            {isExpanded ? "Collapse" : "Expand"}
             <Tooltip.Arrow className="fill-zinc-800" />
           </Tooltip.Content>
         </Tooltip.Portal>

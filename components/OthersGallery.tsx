@@ -26,7 +26,7 @@ const OthersGallery: React.FC = () => {
         >
           <SetAlertsIllustration />
           <ExpandButton
-            isOpen={isOpen}
+            isExpanded={isOpen}
             onClick={() => {
               setIsOpen(!isOpen)
               setContent(<SetAlertsIllustration isExpanded />)
@@ -39,7 +39,7 @@ const OthersGallery: React.FC = () => {
         >
           <SlackAlertIllustration />
           <ExpandButton
-            isOpen={isOpen}
+            isExpanded={isOpen}
             onClick={() => {
               setIsOpen(!isOpen)
               setContent(<SlackAlertIllustration isExpanded />)

@@ -32,7 +32,7 @@ const HomeGallery: React.FC = () => {
         >
           <QueryBuilderIllustration />
           <ExpandButton
-            isOpen={isOpen}
+            isExpanded={isOpen}
             onClick={() => {
               setIsOpen(!isOpen)
               setContent(<QueryBuilderIllustration isExpanded />)
@@ -45,7 +45,7 @@ const HomeGallery: React.FC = () => {
         >
           <VisualizeIllustration />
           <ExpandButton
-            isOpen={isOpen}
+            isExpanded={isOpen}
             onClick={() => {
               setIsOpen(!isOpen)
               setContent(<VisualizeIllustration isExpanded />)
@@ -58,7 +58,7 @@ const HomeGallery: React.FC = () => {
         >
           <SavedQueryIllustration />
           <ExpandButton
-            isOpen={isOpen}
+            isExpanded={isOpen}
             onClick={() => {
               setIsOpen(!isOpen)
               setContent(<SavedQueryIllustration isExpanded />)
@@ -71,7 +71,7 @@ const HomeGallery: React.FC = () => {
         >
           <DataExportIllustration />
           <ExpandButton
-            isOpen={isOpen}
+            isExpanded={isOpen}
             onClick={() => {
               setIsOpen(!isOpen)
               setContent(<DataExportIllustration isExpanded />)
@@ -84,7 +84,7 @@ const HomeGallery: React.FC = () => {
         >
           <PermissionsIllustration />
           <ExpandButton
-            isOpen={isOpen}
+            isExpanded={isOpen}
             onClick={() => {
               setIsOpen(!isOpen)
               setContent(<PermissionsIllustration isExpanded />)
@@ -97,7 +97,7 @@ const HomeGallery: React.FC = () => {
         >
           <PermissionsIllustration />
           <ExpandButton
-            isOpen={isOpen}
+            isExpanded={isOpen}
             onClick={() => {
               setIsOpen(!isOpen)
               setContent(<PermissionsIllustration isExpanded />)
@@ -110,7 +110,7 @@ const HomeGallery: React.FC = () => {
         >
           <DashboardIllustration />
           <ExpandButton
-            isOpen={isOpen}
+            isExpanded={isOpen}
             onClick={() => {
               setIsOpen(!isOpen)
               setContent(<DashboardIllustration isExpanded />)
@@ -123,7 +123,7 @@ const HomeGallery: React.FC = () => {
         >
           <AlertsIllustration />
           <ExpandButton
-            isOpen={isOpen}
+            isExpanded={isOpen}
             onClick={() => {
               setIsOpen(!isOpen)
               setContent(<AlertsIllustration isExpanded />)
@@ -136,7 +136,7 @@ const HomeGallery: React.FC = () => {
         >
           <SharingIllustration />
           <ExpandButton
-            isOpen={isOpen}
+            isExpanded={isOpen}
             onClick={() => {
               setIsOpen(!isOpen)
               setContent(<QueryBuilderIllustration isExpanded />)

@@ -29,7 +29,7 @@ const DetailsGallery: React.FC = () => {
         >
           <DataSourceConnectionIllustration />
           <ExpandButton
-            isOpen={isOpen}
+            isExpanded={isOpen}
             onClick={() => {
               setIsOpen(!isOpen)
               setContent(<DataSourceConnectionIllustration isExpanded />)
@@ -42,7 +42,7 @@ const DetailsGallery: React.FC = () => {
         >
           <DataChangeAlertIllustration />
           <ExpandButton
-            isOpen={isOpen}
+            isExpanded={isOpen}
             onClick={() => {
               setIsOpen(!isOpen)
               setContent(<DataChangeAlertIllustration isExpanded />)
@@ -55,7 +55,7 @@ const DetailsGallery: React.FC = () => {
         >
           <DataThresholdAlertIllustration />
           <ExpandButton
-            isOpen={isOpen}
+            isExpanded={isOpen}
             onClick={() => {
               setIsOpen(!isOpen)
               setContent(<DataThresholdAlertIllustration isExpanded />)
@@ -68,7 +68,7 @@ const DetailsGallery: React.FC = () => {
         >
           <TimelyUpdatesIllustration />
           <ExpandButton
-            isOpen={isOpen}
+            isExpanded={isOpen}
             onClick={() => {
               setIsOpen(!isOpen)
               setContent(<TimelyUpdatesIllustration isExpanded />)
@@ -81,7 +81,7 @@ const DetailsGallery: React.FC = () => {
         >
           <GroupDashboardIllustration />
           <ExpandButton
-            isOpen={isOpen}
+            isExpanded={isOpen}
             onClick={() => {
               setIsOpen(!isOpen)
               setContent(<GroupDashboardIllustration isExpanded />)
