@@ -1,8 +1,7 @@
 "use client"
 import * as React from "react"
 
-import { AnimatePresence } from "framer-motion"
-import * as motion from "framer-motion/client"
+import { AnimatePresence, motion } from "framer-motion"
 
 import ExpandButton from "components/ExpandButton"
 import SetAlertsIllustration from "components/illustration/SetAlerts"
