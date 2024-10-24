@@ -1,13 +1,11 @@
 export const gridContainerVariants = {
   hidden: {
     opacity: 1,
-    scale: 0,
   },
   visible: {
     opacity: 1,
-    scale: 1,
     transition: {
-      delayChildren: 0.3,
+      delayChildren: 0,
       staggerChildren: 0.2,
     },
   },
