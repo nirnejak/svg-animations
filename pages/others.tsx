@@ -3,10 +3,9 @@ import * as React from "react"
 import { motion } from "framer-motion"
 import Head from "next/head"
 
-import GridItemWrapper from "components/GridItemWrapper"
 import SetAlertsIllustration from "components/illustration/SetAlerts"
 import SlackAlertIllustration from "components/illustration/SlackAlert"
-import { gridContainer } from "utils/animationConfig"
+import { gridContainerVariants, itemVariants } from "utils/animationConfig"
 
 const Other: React.FC = () => {
   return (
@@ -18,17 +17,23 @@ const Other: React.FC = () => {
       </Head>
 
       <motion.main
-        variants={gridContainer}
+        variants={gridContainerVariants}
         initial="hidden"
         animate="visible"
         className="grid grid-cols-1 gap-3 p-3 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4"
       >
-        <GridItemWrapper>
+        <motion.div
+          variants={itemVariants}
+          className="rounded-3xl bg-zinc-50 p-10"
+        >
           <SetAlertsIllustration />
-        </GridItemWrapper>
-        <GridItemWrapper>
+        </motion.div>
+        <motion.div
+          variants={itemVariants}
+          className="rounded-3xl bg-zinc-50 p-10"
+        >
           <SlackAlertIllustration />
-        </GridItemWrapper>
+        </motion.div>
       </motion.main>
     </div>
   )

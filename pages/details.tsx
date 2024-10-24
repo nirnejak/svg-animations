@@ -3,13 +3,12 @@ import * as React from "react"
 import { motion } from "framer-motion"
 import Head from "next/head"
 
-import GridItemWrapper from "components/GridItemWrapper"
 import DataChangeAlertIllustration from "components/illustration/DataChangeAlert"
 import DataSourceConnectionIllustration from "components/illustration/DataSourceConnection"
 import DataThresholdAlertIllustration from "components/illustration/DataThresholdAlert"
 import GroupDashboardIllustration from "components/illustration/GroupDashboard"
 import TimelyUpdatesIllustration from "components/illustration/TimelyUpdates"
-import { gridContainer } from "utils/animationConfig"
+import { gridContainerVariants, itemVariants } from "utils/animationConfig"
 
 const Other: React.FC = () => {
   return (
@@ -21,46 +20,61 @@ const Other: React.FC = () => {
       </Head>
 
       <motion.main
-        variants={gridContainer}
+        variants={gridContainerVariants}
         initial="hidden"
         animate="visible"
         className="grid grid-cols-1 gap-3 p-3 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4"
       >
-        <GridItemWrapper>
+        <motion.div
+          variants={itemVariants}
+          className="rounded-3xl bg-zinc-50 p-10"
+        >
           <div className="flex">
             <div className="m-auto">
               <DataSourceConnectionIllustration />
             </div>
           </div>
-        </GridItemWrapper>
-        <GridItemWrapper>
+        </motion.div>
+        <motion.div
+          variants={itemVariants}
+          className="rounded-3xl bg-zinc-50 p-10"
+        >
           <div className="flex">
             <div className="m-auto">
               <DataChangeAlertIllustration />
             </div>
           </div>
-        </GridItemWrapper>
-        <GridItemWrapper>
+        </motion.div>
+        <motion.div
+          variants={itemVariants}
+          className="rounded-3xl bg-zinc-50 p-10"
+        >
           <div className="flex">
             <div className="m-auto">
               <DataThresholdAlertIllustration />
             </div>
           </div>
-        </GridItemWrapper>
-        <GridItemWrapper>
+        </motion.div>
+        <motion.div
+          variants={itemVariants}
+          className="rounded-3xl bg-zinc-50 p-10"
+        >
           <div className="flex">
             <div className="m-auto">
               <TimelyUpdatesIllustration />
             </div>
           </div>
-        </GridItemWrapper>
-        <GridItemWrapper>
+        </motion.div>
+        <motion.div
+          variants={itemVariants}
+          className="rounded-3xl bg-zinc-50 p-10"
+        >
           <div className="flex">
             <div className="m-auto">
               <GroupDashboardIllustration />
             </div>
           </div>
-        </GridItemWrapper>
+        </motion.div>
       </motion.main>
     </div>
   )

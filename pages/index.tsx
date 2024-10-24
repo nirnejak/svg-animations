@@ -3,7 +3,6 @@ import * as React from "react"
 import { motion } from "framer-motion"
 import Head from "next/head"
 
-import GridItemWrapper from "components/GridItemWrapper"
 import AlertsIllustration from "components/illustration/Alerts"
 import DashboardIllustration from "components/illustration/Dashboard"
 import DataExportIllustration from "components/illustration/DataExport"
@@ -12,7 +11,7 @@ import QueryBuilderIllustration from "components/illustration/QueryBuilder"
 import SavedQueryIllustration from "components/illustration/SavedQuery"
 import SharingIllustration from "components/illustration/Sharing"
 import VisualizeIllustration from "components/illustration/Visualize"
-import { gridContainer } from "utils/animationConfig"
+import { gridContainerVariants, itemVariants } from "utils/animationConfig"
 
 const Home: React.FC = () => {
   return (
@@ -24,38 +23,65 @@ const Home: React.FC = () => {
       </Head>
 
       <motion.main
-        variants={gridContainer}
+        variants={gridContainerVariants}
         initial="hidden"
         animate="visible"
         className="mb-20 grid min-h-screen grid-cols-1 gap-3 p-3 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4"
       >
-        <GridItemWrapper>
+        <motion.div
+          variants={itemVariants}
+          className="rounded-3xl bg-zinc-50 p-10"
+        >
           <QueryBuilderIllustration />
-        </GridItemWrapper>
-        <GridItemWrapper>
+        </motion.div>
+        <motion.div
+          variants={itemVariants}
+          className="rounded-3xl bg-zinc-50 p-10"
+        >
           <VisualizeIllustration />
-        </GridItemWrapper>
-        <GridItemWrapper>
+        </motion.div>
+        <motion.div
+          variants={itemVariants}
+          className="rounded-3xl bg-zinc-50 p-10"
+        >
           <SavedQueryIllustration />
-        </GridItemWrapper>
-        <GridItemWrapper>
+        </motion.div>
+        <motion.div
+          variants={itemVariants}
+          className="rounded-3xl bg-zinc-50 p-10"
+        >
           <DataExportIllustration />
-        </GridItemWrapper>
-        <GridItemWrapper>
+        </motion.div>
+        <motion.div
+          variants={itemVariants}
+          className="rounded-3xl bg-zinc-50 p-10"
+        >
           <PermissionsIllustration />
-        </GridItemWrapper>
-        <GridItemWrapper>
+        </motion.div>
+        <motion.div
+          variants={itemVariants}
+          className="rounded-3xl bg-zinc-50 p-10"
+        >
           <PermissionsIllustration />
-        </GridItemWrapper>
-        <GridItemWrapper>
+        </motion.div>
+        <motion.div
+          variants={itemVariants}
+          className="rounded-3xl bg-zinc-50 p-10"
+        >
           <DashboardIllustration />
-        </GridItemWrapper>
-        <GridItemWrapper>
+        </motion.div>
+        <motion.div
+          variants={itemVariants}
+          className="rounded-3xl bg-zinc-50 p-10"
+        >
           <AlertsIllustration />
-        </GridItemWrapper>
-        <GridItemWrapper>
+        </motion.div>
+        <motion.div
+          variants={itemVariants}
+          className="rounded-3xl bg-zinc-50 p-10"
+        >
           <SharingIllustration />
-        </GridItemWrapper>
+        </motion.div>
       </motion.main>
     </div>
   )
