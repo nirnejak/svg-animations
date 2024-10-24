@@ -1,8 +1,9 @@
+"use client"
 import React from "react"
 
 import { motion } from "framer-motion"
 import Link from "next/link"
-import { useRouter } from "next/router"
+import { usePathname } from "next/navigation"
 
 import classNames from "utils/classNames"
 
@@ -13,7 +14,7 @@ const links = [
 ]
 
 const Header: React.FC = () => {
-  const router = useRouter()
+  const pathname = usePathname()
 
   return (
     <motion.header
@@ -30,7 +31,7 @@ const Header: React.FC = () => {
               key={index}
               className={classNames(
                 "rounded px-3 py-1.5 font-semibold transition-all hover:text-gray-900",
-                router.pathname === link.path
+                pathname === link.path
                   ? "toggle-selected-item bg-white text-gray-900"
                   : "text-gray-500"
               )}
