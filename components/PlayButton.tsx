@@ -3,6 +3,8 @@ import * as React from "react"
 
 import * as Tooltip from "@radix-ui/react-tooltip"
 
+import classNames from "utils/classNames"
+
 interface Props {
   isExpanded: boolean
   onClick: () => void
@@ -18,7 +20,10 @@ const PlayButton: React.FC<Props> = ({ isExpanded, onClick }) => {
               e.stopPropagation()
               onClick()
             }}
-            className="absolute bottom-2 right-2 rounded-full bg-gray-200 p-3 text-xs text-gray-700 outline-none transition-transform hover:bg-gray-300 focus:bg-gray-300 active:scale-95"
+            className={classNames(
+              isExpanded ? "top-8 right-8" : "bottom-2 right-2",
+              "absolute rounded-full bg-gray-200 p-3 text-xs text-gray-700 outline-none transition-transform hover:bg-gray-300 focus:bg-gray-300 active:scale-95"
+            )}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

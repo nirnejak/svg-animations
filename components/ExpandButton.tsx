@@ -3,12 +3,14 @@ import * as React from "react"
 
 import * as Tooltip from "@radix-ui/react-tooltip"
 
+import classNames from "utils/classNames"
+
 interface Props {
-  onClick: () => void
   isExpanded: boolean
+  onClick: () => void
 }
 
-const ExpandButton: React.FC<Props> = ({ onClick, isExpanded }) => {
+const ExpandButton: React.FC<Props> = ({ isExpanded, onClick }) => {
   return (
     <Tooltip.Provider delayDuration={200}>
       <Tooltip.Root key={isExpanded ? "Collapse" : "Expand"}>
@@ -17,7 +19,10 @@ const ExpandButton: React.FC<Props> = ({ onClick, isExpanded }) => {
             onClick={() => {
               onClick()
             }}
-            className="absolute bottom-2 right-14 rounded-full bg-gray-200 p-3 text-xs text-gray-700 outline-none transition-transform hover:bg-gray-300 focus:bg-gray-300 active:scale-95"
+            className={classNames(
+              isExpanded ? "top-8 right-20" : "bottom-2 right-14",
+              "absolute rounded-full bg-gray-200 p-3 text-xs text-gray-700 outline-none transition-transform hover:bg-gray-300 focus:bg-gray-300 active:scale-95"
+            )}
           >
             {isExpanded ? (
               <svg
