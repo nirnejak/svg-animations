@@ -72,7 +72,7 @@ const config: Config = {
       },
     },
     fontFamily: {
-      sans: ["var(--font-satoshi)", "system-ui"],
+      sans: ["var(--font-sans)", "system-ui"],
     },
   },
   variants: {

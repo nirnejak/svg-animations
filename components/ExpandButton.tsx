@@ -9,7 +9,7 @@ interface Props {
 }
 
 const satoshi = localFont({
-  variable: "--font-satoshi",
+  variable: "--font-sans",
   src: [
     {
       path: "../fonts/Satoshi-Variable.woff2",

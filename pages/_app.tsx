@@ -10,7 +10,7 @@ import classNames from "utils/classNames"
 import "../styles/main.css"
 
 const satoshi = localFont({
-  variable: "--font-satoshi",
+  variable: "--font-sans",
   src: [
     {
       path: "../fonts/Satoshi-Variable.woff2",
