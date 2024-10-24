@@ -10,30 +10,11 @@ import DataSourceConnectionIllustration from "components/illustration/DataSource
 import DataThresholdAlertIllustration from "components/illustration/DataThresholdAlert"
 import GroupDashboardIllustration from "components/illustration/GroupDashboard"
 import TimelyUpdatesIllustration from "components/illustration/TimelyUpdates"
+import useModal from "hooks/useModal"
 import { gridContainerVariants, gridItemVariants } from "utils/animationConfig"
 
 const DetailsGallery: React.FC = () => {
-  const [isOpen, setIsOpen] = React.useState(false)
-  const [content, setContent] = React.useState<React.ReactNode>(null)
-
-  React.useEffect(() => {
-    const handleEsc = (event: KeyboardEvent): void => {
-      if (event.key === "Escape") {
-        setIsOpen(false)
-        setContent(null)
-      }
-    }
-
-    if (isOpen) {
-      document.body.style.overflowY = "hidden"
-      document.addEventListener("keydown", handleEsc)
-    }
-
-    return () => {
-      document.body.style.overflowY = "unset"
-      document.removeEventListener("keydown", handleEsc)
-    }
-  }, [isOpen, setIsOpen])
+  const [isOpen, setIsOpen, content, setContent] = useModal()
 
   return (
     <>

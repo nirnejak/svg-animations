@@ -7,30 +7,11 @@ import * as motion from "framer-motion/client"
 import ExpandButton from "components/ExpandButton"
 import SetAlertsIllustration from "components/illustration/SetAlerts"
 import SlackAlertIllustration from "components/illustration/SlackAlert"
+import useModal from "hooks/useModal"
 import { gridContainerVariants, gridItemVariants } from "utils/animationConfig"
 
 const OthersGallery: React.FC = () => {
-  const [isOpen, setIsOpen] = React.useState(false)
-  const [content, setContent] = React.useState<React.ReactNode>(null)
-
-  React.useEffect(() => {
-    const handleEsc = (event: KeyboardEvent): void => {
-      if (event.key === "Escape") {
-        setIsOpen(false)
-        setContent(null)
-      }
-    }
-
-    if (isOpen) {
-      document.body.style.overflowY = "hidden"
-      document.addEventListener("keydown", handleEsc)
-    }
-
-    return () => {
-      document.body.style.overflowY = "unset"
-      document.removeEventListener("keydown", handleEsc)
-    }
-  }, [isOpen, setIsOpen])
+  const [isOpen, setIsOpen, content, setContent] = useModal()
 
   return (
     <>
