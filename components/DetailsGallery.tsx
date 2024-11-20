@@ -12,6 +12,14 @@ import GroupDashboardIllustration from "components/illustration/GroupDashboard"
 import TimelyUpdatesIllustration from "components/illustration/TimelyUpdates"
 import { gridContainerVariants, gridItemVariants } from "utils/animationConfig"
 
+const components = [
+  DataSourceConnectionIllustration,
+  DataChangeAlertIllustration,
+  DataThresholdAlertIllustration,
+  TimelyUpdatesIllustration,
+  GroupDashboardIllustration,
+]
+
 const DetailsGallery: React.FC = () => {
   const [isOpen, setIsOpen, content, setContent] = useModal()
 
@@ -23,71 +31,22 @@ const DetailsGallery: React.FC = () => {
         animate="visible"
         className="mb-20 grid grid-cols-1 gap-3 p-3 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4"
       >
-        <motion.div
-          variants={gridItemVariants}
-          className="relative rounded-3xl bg-zinc-50 p-20"
-        >
-          <DataSourceConnectionIllustration />
-          <ExpandButton
-            isExpanded={isOpen}
-            onClick={() => {
-              setIsOpen(!isOpen)
-              setContent(<DataSourceConnectionIllustration isExpanded />)
-            }}
-          />
-        </motion.div>
-        <motion.div
-          variants={gridItemVariants}
-          className="relative rounded-3xl bg-zinc-50 p-20"
-        >
-          <DataChangeAlertIllustration />
-          <ExpandButton
-            isExpanded={isOpen}
-            onClick={() => {
-              setIsOpen(!isOpen)
-              setContent(<DataChangeAlertIllustration isExpanded />)
-            }}
-          />
-        </motion.div>
-        <motion.div
-          variants={gridItemVariants}
-          className="relative rounded-3xl bg-zinc-50 p-20"
-        >
-          <DataThresholdAlertIllustration />
-          <ExpandButton
-            isExpanded={isOpen}
-            onClick={() => {
-              setIsOpen(!isOpen)
-              setContent(<DataThresholdAlertIllustration isExpanded />)
-            }}
-          />
-        </motion.div>
-        <motion.div
-          variants={gridItemVariants}
-          className="relative rounded-3xl bg-zinc-50 p-20"
-        >
-          <TimelyUpdatesIllustration />
-          <ExpandButton
-            isExpanded={isOpen}
-            onClick={() => {
-              setIsOpen(!isOpen)
-              setContent(<TimelyUpdatesIllustration isExpanded />)
-            }}
-          />
-        </motion.div>
-        <motion.div
-          variants={gridItemVariants}
-          className="relative rounded-3xl bg-zinc-50 p-20"
-        >
-          <GroupDashboardIllustration />
-          <ExpandButton
-            isExpanded={isOpen}
-            onClick={() => {
-              setIsOpen(!isOpen)
-              setContent(<GroupDashboardIllustration isExpanded />)
-            }}
-          />
-        </motion.div>
+        {components.map((AnimatedComponent, index) => (
+          <motion.div
+            key={index}
+            variants={gridItemVariants}
+            className="relative rounded-3xl bg-zinc-50 p-20"
+          >
+            <AnimatedComponent />
+            <ExpandButton
+              isExpanded={isOpen}
+              onClick={() => {
+                setIsOpen(!isOpen)
+                setContent(<AnimatedComponent isExpanded />)
+              }}
+            />
+          </motion.div>
+        ))}
       </motion.main>
 
       <Modal
