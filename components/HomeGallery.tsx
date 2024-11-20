@@ -15,6 +15,17 @@ import SharingIllustration from "components/illustration/Sharing"
 import VisualizeIllustration from "components/illustration/Visualize"
 import { gridContainerVariants, gridItemVariants } from "utils/animationConfig"
 
+const components = [
+  QueryBuilderIllustration,
+  VisualizeIllustration,
+  SavedQueryIllustration,
+  DataExportIllustration,
+  PermissionsIllustration,
+  DashboardIllustration,
+  AlertsIllustration,
+  SharingIllustration,
+]
+
 const HomeGallery: React.FC = () => {
   const [isOpen, setIsOpen, content, setContent] = useModal()
 
@@ -26,123 +37,22 @@ const HomeGallery: React.FC = () => {
         animate="visible"
         className="mb-20 grid min-h-screen grid-cols-1 gap-3 p-3 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4"
       >
-        <motion.div
-          variants={gridItemVariants}
-          className="relative rounded-3xl bg-zinc-50 p-10"
-        >
-          <QueryBuilderIllustration />
-          <ExpandButton
-            isExpanded={isOpen}
-            onClick={() => {
-              setIsOpen(!isOpen)
-              setContent(<QueryBuilderIllustration isExpanded />)
-            }}
-          />
-        </motion.div>
-        <motion.div
-          variants={gridItemVariants}
-          className="relative rounded-3xl bg-zinc-50 p-10"
-        >
-          <VisualizeIllustration />
-          <ExpandButton
-            isExpanded={isOpen}
-            onClick={() => {
-              setIsOpen(!isOpen)
-              setContent(<VisualizeIllustration isExpanded />)
-            }}
-          />
-        </motion.div>
-        <motion.div
-          variants={gridItemVariants}
-          className="relative rounded-3xl bg-zinc-50 p-10"
-        >
-          <SavedQueryIllustration />
-          <ExpandButton
-            isExpanded={isOpen}
-            onClick={() => {
-              setIsOpen(!isOpen)
-              setContent(<SavedQueryIllustration isExpanded />)
-            }}
-          />
-        </motion.div>
-        <motion.div
-          variants={gridItemVariants}
-          className="relative rounded-3xl bg-zinc-50 p-10"
-        >
-          <DataExportIllustration />
-          <ExpandButton
-            isExpanded={isOpen}
-            onClick={() => {
-              setIsOpen(!isOpen)
-              setContent(<DataExportIllustration isExpanded />)
-            }}
-          />
-        </motion.div>
-        <motion.div
-          variants={gridItemVariants}
-          className="relative rounded-3xl bg-zinc-50 p-10"
-        >
-          <PermissionsIllustration />
-          <ExpandButton
-            isExpanded={isOpen}
-            onClick={() => {
-              setIsOpen(!isOpen)
-              setContent(<PermissionsIllustration isExpanded />)
-            }}
-          />
-        </motion.div>
-        <motion.div
-          variants={gridItemVariants}
-          className="relative rounded-3xl bg-zinc-50 p-10"
-        >
-          <PermissionsIllustration />
-          <ExpandButton
-            isExpanded={isOpen}
-            onClick={() => {
-              setIsOpen(!isOpen)
-              setContent(<PermissionsIllustration isExpanded />)
-            }}
-          />
-        </motion.div>
-        <motion.div
-          variants={gridItemVariants}
-          className="relative rounded-3xl bg-zinc-50 p-10"
-        >
-          <DashboardIllustration />
-          <ExpandButton
-            isExpanded={isOpen}
-            onClick={() => {
-              setIsOpen(!isOpen)
-              setContent(<DashboardIllustration isExpanded />)
-            }}
-          />
-        </motion.div>
-        <motion.div
-          variants={gridItemVariants}
-          className="relative rounded-3xl bg-zinc-50 p-10"
-        >
-          <AlertsIllustration />
-          <ExpandButton
-            isExpanded={isOpen}
-            onClick={() => {
-              setIsOpen(!isOpen)
-              setContent(<AlertsIllustration isExpanded />)
-            }}
-          />
-        </motion.div>
-        <motion.div
-          variants={gridItemVariants}
-          className="relative rounded-3xl bg-zinc-50 p-10"
-        >
-          <SharingIllustration />
-          <ExpandButton
-            isExpanded={isOpen}
-            onClick={() => {
-              setIsOpen(!isOpen)
-              setContent(<QueryBuilderIllustration isExpanded />)
-            }}
-          />
-        </motion.div>
+        {components.map((AnimatedComponent, index) => (
+          <motion.div
+            key={index}
+            variants={gridItemVariants}
+            className="relative rounded-3xl bg-zinc-50 p-10"
+          >
+            {<AnimatedComponent />}
+            <ExpandButton
+              isExpanded={isOpen}
+              onClick={() => {
+                setIsOpen(!isOpen)
+                setContent(<AnimatedComponent isExpanded />)
+              }}
+            />
+          </motion.div>
+        ))}
       </motion.main>
 
       <Modal
