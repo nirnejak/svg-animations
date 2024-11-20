@@ -9,6 +9,8 @@ import SetAlertsIllustration from "components/illustration/SetAlerts"
 import SlackAlertIllustration from "components/illustration/SlackAlert"
 import { gridContainerVariants, gridItemVariants } from "utils/animationConfig"
 
+const components = [SetAlertsIllustration, SlackAlertIllustration]
+
 const OthersGallery: React.FC = () => {
   const [isOpen, setIsOpen, content, setContent] = useModal()
 
@@ -20,32 +22,22 @@ const OthersGallery: React.FC = () => {
         animate="visible"
         className="mb-20 grid grid-cols-1 gap-3 p-3 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4"
       >
-        <motion.div
-          variants={gridItemVariants}
-          className="relative rounded-3xl bg-zinc-50 p-10"
-        >
-          <SetAlertsIllustration />
-          <ExpandButton
-            isExpanded={isOpen}
-            onClick={() => {
-              setIsOpen(!isOpen)
-              setContent(<SetAlertsIllustration isExpanded />)
-            }}
-          />
-        </motion.div>
-        <motion.div
-          variants={gridItemVariants}
-          className="relative rounded-3xl bg-zinc-50 p-10"
-        >
-          <SlackAlertIllustration />
-          <ExpandButton
-            isExpanded={isOpen}
-            onClick={() => {
-              setIsOpen(!isOpen)
-              setContent(<SlackAlertIllustration isExpanded />)
-            }}
-          />
-        </motion.div>
+        {components.map((AnimatedComponent, index) => (
+          <motion.div
+            key={index}
+            variants={gridItemVariants}
+            className="relative rounded-3xl bg-zinc-50 p-10"
+          >
+            <AnimatedComponent />
+            <ExpandButton
+              isExpanded={isOpen}
+              onClick={() => {
+                setIsOpen(!isOpen)
+                setContent(<AnimatedComponent isExpanded />)
+              }}
+            />
+          </motion.div>
+        ))}
       </motion.main>
 
       <Modal
