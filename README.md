@@ -16,43 +16,43 @@ SVG Animations with Framer Motion
 **Install Dependencies**
 
 ```bash
-npm install
+bun install
 ```
 
 **Start Development Server**
 
 ```bash
-npm run dev
+bun run dev
 ```
 
 **Lint all the files**
 
 ```bash
-npm run lint
+bun run lint
 ```
 
 **Format all files with Prettier**
 
 ```bash
-npm run format
+bun run format
 ```
 
 **Check TypeScript issues**
 
 ```bash
-npm run type-check
+bun run type-check
 ```
 
 **Build for Production**
 
 ```bash
-npm run build
+bun run build
 ```
 
 **Start Production Server**
 
 ```bash
-npm start
+bun start
 ```
 
 ---
