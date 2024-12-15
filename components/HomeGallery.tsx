@@ -1,6 +1,7 @@
 "use client"
 import * as React from "react"
 
+import * as Tooltip from "@radix-ui/react-tooltip"
 import { motion } from "framer-motion"
 
 import Modal, { useModal } from "./Modal"
@@ -30,7 +31,7 @@ const HomeGallery: React.FC = () => {
   const [isOpen, setIsOpen, content, setContent] = useModal()
 
   return (
-    <>
+    <Tooltip.Provider delayDuration={200}>
       <motion.main
         variants={gridContainerVariants}
         initial="hidden"
@@ -64,7 +65,7 @@ const HomeGallery: React.FC = () => {
       >
         {content}
       </Modal>
-    </>
+    </Tooltip.Provider>
   )
 }
 
