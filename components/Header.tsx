@@ -1,7 +1,6 @@
 "use client"
 import React from "react"
 
-import { GithubFill, LinkOut, XFill } from "akar-icons"
 import { motion } from "framer-motion"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
@@ -50,26 +49,13 @@ const Header: React.FC = () => {
           </div>
         </div>
         <div className="order-2 col-span-2 ml-auto flex gap-0.5 md:order-3 md:col-span-1">
+          by{" "}
           <a
+            className="font-bold underline"
+            target="_blank"
             href="https://nirnejak.com/"
-            target="_blank"
-            className="flex items-center gap-1 rounded-3xl px-2 py-1.5 font-medium hover:bg-gray-200"
           >
-            <LinkOut size={19} />
-          </a>
-          <a
-            href="https://x.com/jeetnirnejak"
-            target="_blank"
-            className="flex items-center gap-1 rounded-3xl px-2 py-1.5 font-medium hover:bg-gray-200"
-          >
-            <XFill size={19} />
-          </a>
-          <a
-            href="https://github.com/nirnejak/svg-animations"
-            target="_blank"
-            className="flex items-center gap-1 rounded-3xl px-2 py-1.5 font-medium hover:bg-gray-200"
-          >
-            <GithubFill size={19} />
+            Jitendra Nirnejak
           </a>
         </div>
       </motion.header>
