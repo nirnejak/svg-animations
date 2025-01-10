@@ -49,7 +49,10 @@ const RootLayout: React.FC<Props> = ({ children }) => {
       </head>
 
       <body
-        className={classNames(sansFont.variable, "overflow-x-hidden font-sans")}
+        className={classNames(
+          sansFont.variable,
+          "overflow-x-hidden font-sans bg-zinc-100"
+        )}
       >
         <Header />
         {children}
