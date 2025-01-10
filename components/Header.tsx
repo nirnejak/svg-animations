@@ -27,7 +27,7 @@ const Header: React.FC = () => {
         damping: 10,
         mass: 1,
       }}
-      className="grid w-full grid-cols-3 items-center justify-start gap-3 bg-white px-4 py-2 text-sm text-gray-700 shadow md:justify-between md:gap-0"
+      className="grid w-full grid-cols-3 items-center justify-start gap-3 bg-white px-4 py-2 text-sm text-zinc-700 shadow md:justify-between md:gap-0"
     >
       <div className="mr-auto text-base font-bold">SVG Gallery</div>
       <div className="order-3 col-span-3 flex justify-center md:order-2 md:col-span-1">
