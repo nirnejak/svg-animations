@@ -4,9 +4,9 @@ import type { Viewport } from "next"
 
 import localFont from "next/font/local"
 
-import Header from "components/Header"
-import classNames from "utils/classNames"
-import { renderSchemaTags } from "utils/schema"
+import Header from "@/components/Header"
+import classNames from "@/utils/classNames"
+import { renderSchemaTags } from "@/utils/schema"
 
 import "../styles/main.css"
 

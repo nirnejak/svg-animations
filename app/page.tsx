@@ -2,8 +2,8 @@ import * as React from "react"
 
 import { type Metadata } from "next"
 
-import HomeGallery from "components/HomeGallery"
-import { generateMetadata } from "utils/seo"
+import { generateMetadata } from "@/utils/seo"
+import HomeGallery from "@/components/HomeGallery"
 
 export const metadata: Metadata = generateMetadata({
   path: "/",

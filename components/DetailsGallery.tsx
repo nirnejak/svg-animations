@@ -5,13 +5,16 @@ import * as Tooltip from "@radix-ui/react-tooltip"
 import { motion } from "framer-motion"
 
 import Modal, { useModal } from "./Modal"
-import ExpandButton from "components/ExpandButton"
-import DataChangeAlertIllustration from "components/illustration/DataChangeAlert"
-import DataSourceConnectionIllustration from "components/illustration/DataSourceConnection"
-import DataThresholdAlertIllustration from "components/illustration/DataThresholdAlert"
-import GroupDashboardIllustration from "components/illustration/GroupDashboard"
-import TimelyUpdatesIllustration from "components/illustration/TimelyUpdates"
-import { gridContainerVariants, gridItemVariants } from "utils/animationConfig"
+import ExpandButton from "@/components/ExpandButton"
+import DataChangeAlertIllustration from "@/components/illustration/DataChangeAlert"
+import DataSourceConnectionIllustration from "@/components/illustration/DataSourceConnection"
+import DataThresholdAlertIllustration from "@/components/illustration/DataThresholdAlert"
+import GroupDashboardIllustration from "@/components/illustration/GroupDashboard"
+import TimelyUpdatesIllustration from "@/components/illustration/TimelyUpdates"
+import {
+  gridContainerVariants,
+  gridItemVariants,
+} from "@/utils/animationConfig"
 
 const components = [
   DataSourceConnectionIllustration,

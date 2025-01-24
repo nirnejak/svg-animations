@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 
-import classNames from "utils/classNames"
+import classNames from "@/utils/classNames"
 
 const links = [
   { label: "Features", path: "/" },

@@ -3,8 +3,8 @@ import * as React from "react"
 
 import { motion, useAnimation } from "framer-motion"
 
-import PlayButton from "components/PlayButton"
-import classNames from "utils/classNames"
+import PlayButton from "@/components/PlayButton"
+import classNames from "@/utils/classNames"
 
 const DataSourceConnection: React.FC<{ isExpanded?: boolean }> = ({
   isExpanded = false,

@@ -5,16 +5,19 @@ import * as Tooltip from "@radix-ui/react-tooltip"
 import { motion } from "framer-motion"
 
 import Modal, { useModal } from "./Modal"
-import ExpandButton from "components/ExpandButton"
-import AlertsIllustration from "components/illustration/Alerts"
-import DashboardIllustration from "components/illustration/Dashboard"
-import DataExportIllustration from "components/illustration/DataExport"
-import PermissionsIllustration from "components/illustration/Permissions"
-import QueryBuilderIllustration from "components/illustration/QueryBuilder"
-import SavedQueryIllustration from "components/illustration/SavedQuery"
-import SharingIllustration from "components/illustration/Sharing"
-import VisualizeIllustration from "components/illustration/Visualize"
-import { gridContainerVariants, gridItemVariants } from "utils/animationConfig"
+import ExpandButton from "@/components/ExpandButton"
+import AlertsIllustration from "@/components/illustration/Alerts"
+import DashboardIllustration from "@/components/illustration/Dashboard"
+import DataExportIllustration from "@/components/illustration/DataExport"
+import PermissionsIllustration from "@/components/illustration/Permissions"
+import QueryBuilderIllustration from "@/components/illustration/QueryBuilder"
+import SavedQueryIllustration from "@/components/illustration/SavedQuery"
+import SharingIllustration from "@/components/illustration/Sharing"
+import VisualizeIllustration from "@/components/illustration/Visualize"
+import {
+  gridContainerVariants,
+  gridItemVariants,
+} from "@/utils/animationConfig"
 
 const components = [
   QueryBuilderIllustration,

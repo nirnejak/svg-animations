@@ -5,10 +5,13 @@ import * as Tooltip from "@radix-ui/react-tooltip"
 import { motion } from "framer-motion"
 
 import Modal, { useModal } from "./Modal"
-import ExpandButton from "components/ExpandButton"
-import SetAlertsIllustration from "components/illustration/SetAlerts"
-import SlackAlertIllustration from "components/illustration/SlackAlert"
-import { gridContainerVariants, gridItemVariants } from "utils/animationConfig"
+import ExpandButton from "@/components/ExpandButton"
+import SetAlertsIllustration from "@/components/illustration/SetAlerts"
+import SlackAlertIllustration from "@/components/illustration/SlackAlert"
+import {
+  gridContainerVariants,
+  gridItemVariants,
+} from "@/utils/animationConfig"
 
 const components = [SetAlertsIllustration, SlackAlertIllustration]
 

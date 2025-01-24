@@ -3,7 +3,7 @@ import * as React from "react"
 
 import * as Tooltip from "@radix-ui/react-tooltip"
 
-import classNames from "utils/classNames"
+import classNames from "@/utils/classNames"
 
 interface Props {
   isExpanded: boolean
