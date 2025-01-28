@@ -21,7 +21,7 @@ const PlayButton: React.FC<Props> = ({ isExpanded, onClick }) => {
           }}
           className={classNames(
             isExpanded ? "top-8 right-8" : "bottom-2 right-2",
-            "absolute rounded-full bg-zinc-200 p-3 text-xs text-zinc-700 outline-none transition-transform hover:bg-zinc-300 focus:bg-zinc-300 active:scale-95"
+            "absolute rounded-full bg-zinc-200 p-3 text-xs text-zinc-700 outline-hidden transition-transform hover:bg-zinc-300 focus:bg-zinc-300 active:scale-95"
           )}
         >
           <svg
