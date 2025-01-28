@@ -36,7 +36,7 @@ interface Props {
 
 const RootLayout: React.FC<Props> = ({ children }) => {
   return (
-    <html lang="en">
+    <html lang="en" className={sansFont.variable}>
       <head>
         {renderSchemaTags()}
 
@@ -47,12 +47,7 @@ const RootLayout: React.FC<Props> = ({ children }) => {
         />
       </head>
 
-      <body
-        className={classNames(
-          sansFont.variable,
-          "overflow-x-hidden font-sans bg-zinc-100"
-        )}
-      >
+      <body className="overflow-x-hidden font-sans bg-zinc-100">
         <Header />
         {children}
       </body>

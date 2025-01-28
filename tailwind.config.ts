@@ -1,11 +1,6 @@
 import type { Config } from "tailwindcss"
 
 const config: Config = {
-  content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
   theme: {
     extend: {
       keyframes: {
@@ -71,14 +66,7 @@ const config: Config = {
         rise: "rise 150ms cubic-bezier(0.4, 0, 0.2, 1)",
       },
     },
-    fontFamily: {
-      sans: ["var(--font-sans)", "system-ui"],
-    },
   },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
 }
 
 export default config
