@@ -2,7 +2,7 @@
 import * as React from "react"
 
 import * as Tooltip from "@radix-ui/react-tooltip"
-import { motion } from "framer-motion"
+import { motion } from "motion/react"
 
 import Modal, { useModal } from "./Modal"
 import ExpandButton from "@/components/ExpandButton"
