@@ -6,6 +6,7 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 
 import classNames from "@/utils/classNames"
+import useLinkHighlight from "@/hooks/useLinkHighlight"
 
 const links = [
   { label: "Features", path: "/" },
@@ -15,6 +16,9 @@ const links = [
 
 const Header: React.FC = () => {
   const pathname = usePathname()
+
+  const [activeTab, setActiveTab] = React.useState(0)
+  const { wrapperRef, highlightStyles } = useLinkHighlight(activeTab)
 
   return (
     <section className="px-3 pt-3">
@@ -31,17 +35,23 @@ const Header: React.FC = () => {
       >
         <div className="mr-auto text-base font-bold">SVG Gallery</div>
         <div className="order-3 col-span-3 flex justify-center md:order-2 md:col-span-1">
-          <div className="toggle-group flex gap-1 rounded-3xl bg-gray-200 p-1">
+          <div
+            className="toggle-group relative flex gap-1 rounded-3xl bg-gray-200 p-1"
+            ref={wrapperRef}
+          >
+            <div
+              style={{ ...highlightStyles, height: 32 }}
+              className="absolute left-0 rounded-3xl transition-all duration-300 bg-white toggle-selected-item"
+            />
             {links.map((link, index) => (
               <Link
                 key={index}
                 className={classNames(
-                  "rounded-3xl px-3 py-1.5 font-semibold transition-all hover:text-gray-900",
-                  pathname === link.path
-                    ? "toggle-selected-item bg-white text-gray-900"
-                    : "text-gray-500"
+                  "relative rounded-3xl px-3 py-1.5 font-semibold transition-all hover:text-gray-900",
+                  pathname === link.path ? "text-gray-900" : "text-gray-500"
                 )}
                 href={link.path}
+                onClick={() => setActiveTab(index)}
               >
                 {link.label}
               </Link>
