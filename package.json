@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.20.0",
-    "@tailwindcss/postcss": "^4.0.4",
+    "@tailwindcss/postcss": "^4.0.5",
     "@types/node": "^22.13.1",
     "@types/react": "^19.0.4",
     "eslint": "^9.20.0",
@@ -40,9 +40,9 @@
     "husky": "^9.1.7",
     "lint-staged": "^15.4.3",
     "postcss": "^8.4.49",
-    "prettier": "^3.4.2",
+    "prettier": "^3.5.0",
     "prettier-plugin-tailwindcss": "^0.6.11",
-    "tailwindcss": "^4.0.4",
+    "tailwindcss": "^4.0.5",
     "typescript": "^5.7.3",
     "typescript-eslint": "^8.23.0"
   },
