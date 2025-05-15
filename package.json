@@ -13,23 +13,23 @@
     "type-check": "tsc --pretty --noEmit"
   },
   "dependencies": {
-    "@radix-ui/react-tooltip": "^1.2.6",
+    "@radix-ui/react-tooltip": "^1.2.7",
     "akar-icons": "^1.9.31",
     "dotenv": "^16.5.0",
-    "motion": "^12.11.0",
+    "motion": "^12.12.2",
     "next": "^15.3.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "sharp": "^0.34.1"
+    "sharp": "^0.34.2"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
-    "@eslint/js": "^9.26.0",
-    "@tailwindcss/postcss": "^4.1.6",
-    "@types/node": "^22.15.17",
-    "@types/react": "^19.1.4",
-    "eslint": "^9.26.0",
-    "eslint-config-love": "^119.0.0",
+    "@eslint/js": "^9.27.0",
+    "@tailwindcss/postcss": "^4.1.7",
+    "@types/node": "^22.15.21",
+    "@types/react": "^19.1.5",
+    "eslint": "^9.27.0",
+    "eslint-config-love": "^120.0.0",
     "eslint-config-next": "^15.3.2",
     "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-jsx-a11y": "^6.10.2",
@@ -43,7 +43,7 @@
     "postcss": "^8.5.3",
     "prettier": "^3.5.3",
     "prettier-plugin-tailwindcss": "^0.6.11",
-    "tailwindcss": "^4.1.6",
+    "tailwindcss": "^4.1.7",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.32.1"
   },
