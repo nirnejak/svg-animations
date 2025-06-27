@@ -23,8 +23,8 @@ const Header: React.FC = () => {
   return (
     <section className="px-3 pt-3">
       <motion.header
-        initial={{ translateY: "-100%" }}
-        animate={{ translateY: 0 }}
+        initial={{ y: "-100%" }}
+        animate={{ y: 0 }}
         transition={{
           type: "spring",
           stiffness: 100,
