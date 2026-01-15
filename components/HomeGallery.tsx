@@ -39,7 +39,12 @@ const HomeGallery: React.FC = () => {
         variants={gridContainerVariants}
         initial="hidden"
         animate="visible"
-        className="mb-20 grid min-h-screen grid-cols-1 gap-3 p-3 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4"
+        className="
+          mb-20 grid min-h-screen grid-cols-1 gap-3 p-3
+          sm:grid-cols-2
+          lg:grid-cols-3
+          2xl:grid-cols-4
+        "
       >
         {components.map((AnimatedComponent, index) => (
           <motion.div

@@ -4,9 +4,8 @@ import type { Viewport } from "next"
 
 import localFont from "next/font/local"
 
-import Header from "@/components/Header"
-import classNames from "@/utils/classNames"
 import { renderSchemaTags } from "@/utils/schema"
+import Header from "@/components/Header"
 
 import "../styles/main.css"
 
@@ -47,7 +46,7 @@ const RootLayout: React.FC<Props> = ({ children }) => {
         />
       </head>
 
-      <body className="overflow-x-hidden font-sans bg-zinc-100">
+      <body className="overflow-x-hidden bg-zinc-100 font-sans">
         <Header />
         {children}
       </body>
