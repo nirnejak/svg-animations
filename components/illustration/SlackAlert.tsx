@@ -1,7 +1,7 @@
 "use client"
 import * as React from "react"
 
-import { motion, useAnimation } from "motion/react"
+import { motion, useAnimation, ValueTransition } from "motion/react"
 
 import PlayButton from "@/components/PlayButton"
 import classNames from "@/utils/classNames"
@@ -36,11 +36,11 @@ const SlackAlert: React.FC<{ isExpanded?: boolean }> = ({
     visible: { scale: 1, originX: 0, originY: 1 },
   }
 
-  const playAnimation = (): void => {
-    controls.set("hidden")
-    controls.start("visible").catch((err) => {
-      console.log(err)
-    })
+  const playAnimation = async (): Promise<void> => {
+    await controls.start("hidden", {
+      transitionDuration: 0,
+    } as ValueTransition)
+    await controls.start("visible")
   }
 
   return (
