@@ -28,6 +28,7 @@
     "@tailwindcss/postcss": "^4.1.18",
     "@types/node": "^25.0.7",
     "@types/react": "^19.2.8",
+    "babel-plugin-react-compiler": "^1.0.0",
     "eslint": "^9.39.2",
     "eslint-config-love": "^144.0.0",
     "eslint-config-next": "^16.1.1",
