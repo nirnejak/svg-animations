@@ -7,7 +7,7 @@ import localFont from "next/font/local"
 import { renderSchemaTags } from "@/utils/schema"
 import Header from "@/components/Header"
 
-import "../styles/main.css"
+import "./main.css"
 
 const sansFont = localFont({
   variable: "--font-sans",
