@@ -51,17 +51,14 @@ const DataSourceConnection: React.FC<{ isExpanded?: boolean }> = ({
           width="114"
           height="75.2252"
           rx="10"
-          fill="#F1F1F1"
+          fill="#F0F0F0"
           initial={"visible"}
           animate={controls}
           variants={sector3Variants}
           transition={{ duration: 0.5, ease: "easeOut", delay: 1 }}
         />
-        <motion.rect
-          x="172"
-          y="44.5498"
-          width="114"
-          height="10"
+        <motion.path
+          d="M182 44.5498H276A10 10 0 0 1 286 54.5498H172A10 10 0 0 1 182 44.5498Z"
           fill="#DDDDDD"
           initial={"visible"}
           animate={controls}
@@ -88,7 +85,7 @@ const DataSourceConnection: React.FC<{ isExpanded?: boolean }> = ({
         />
         <motion.path
           d="M132.812 24.2858V39.4642C132.812 52.8405 103.068 63.75 66.4062 63.75C29.7444 63.75 0 52.8405 0 39.4642V24.2858C0 10.9096 29.7444 0 66.4062 0C103.068 0 132.812 10.9096 132.812 24.2858ZM132.812 58.4375V92.5892C132.812 105.965 103.068 116.875 66.4062 116.875C29.7444 116.875 0 105.965 0 92.5892V58.4375C14.267 69.442 40.3797 74.5649 66.4062 74.5649C92.4328 74.5649 118.545 69.442 132.812 58.4375ZM132.812 111.562V145.714C132.812 159.09 103.068 170 66.4062 170C29.7444 170 0 159.09 0 145.714V111.562C14.267 122.567 40.3797 127.69 66.4062 127.69C92.4328 127.69 118.545 122.567 132.812 111.562Z"
-          fill="#F1F1F1"
+          fill="#e9e9e9"
           initial={"visible"}
           animate={controls}
           variants={circleVariants}
