@@ -1,10 +1,8 @@
 "use client"
-import * as React from "react"
 
 import * as Tooltip from "@radix-ui/react-tooltip"
 import { motion } from "motion/react"
-
-import Modal, { useModal } from "./Modal"
+import type * as React from "react"
 import ExpandButton from "@/components/ExpandButton"
 import SetAlertsIllustration from "@/components/illustration/SetAlerts"
 import SlackAlertIllustration from "@/components/illustration/SlackAlert"
@@ -12,6 +10,7 @@ import {
   gridContainerVariants,
   gridItemVariants,
 } from "@/utils/animationConfig"
+import Modal, { useModal } from "./Modal"
 
 const components = [SetAlertsIllustration, SlackAlertIllustration]
 
@@ -24,18 +23,13 @@ const OthersGallery: React.FC = () => {
         variants={gridContainerVariants}
         initial="hidden"
         animate="visible"
-        className="
-          mb-20 grid grid-cols-1 gap-3 p-3
-          sm:grid-cols-2
-          lg:grid-cols-3
-          2xl:grid-cols-4
-        "
+        className="mb-20 grid grid-cols-1 gap-3 p-3 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4"
       >
-        {components.map((AnimatedComponent, index) => (
+        {components.map((AnimatedComponent) => (
           <motion.div
-            key={index}
+            key={AnimatedComponent.name}
             variants={gridItemVariants}
-            className="shadow-card relative rounded-3xl bg-zinc-50 p-10"
+            className="relative rounded-3xl bg-zinc-50 p-10 shadow-card"
           >
             <AnimatedComponent />
             <ExpandButton

@@ -1,7 +1,7 @@
 "use client"
-import * as React from "react"
 
 import { AnimatePresence, motion } from "motion/react"
+import * as React from "react"
 
 import ExpandButton from "./ExpandButton"
 
@@ -19,10 +19,7 @@ const Modal: React.FC<Props> = ({ isOpen, onClose, children }) => {
           initial={{ scale: 0.95, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           exit={{ scale: 0.95, opacity: 0 }}
-          className="
-            fixed top-0 left-0 z-10 grid h-screen w-screen place-content-center
-            bg-zinc-100/80 backdrop-blur-sm
-          "
+          className="fixed top-0 left-0 z-10 grid h-screen w-screen place-content-center bg-zinc-100/80 backdrop-blur-sm"
           onClick={() => {
             onClose()
           }}
@@ -68,7 +65,7 @@ export const useModal = (): [
       document.body.style.overflowY = "unset"
       document.removeEventListener("keydown", handleEsc)
     }
-  }, [isOpen, setIsOpen])
+  }, [isOpen])
 
   return [isOpen, setIsOpen, content, setContent]
 }

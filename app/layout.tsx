@@ -1,11 +1,8 @@
-import * as React from "react"
-
 import type { Viewport } from "next"
-
 import localFont from "next/font/local"
-
-import { renderSchemaTags } from "@/utils/schema"
+import type * as React from "react"
 import Header from "@/components/Header"
+import { renderSchemaTags } from "@/utils/schema"
 
 import "./main.css"
 

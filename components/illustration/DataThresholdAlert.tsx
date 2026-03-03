@@ -1,7 +1,7 @@
 "use client"
-import * as React from "react"
 
-import { motion, useAnimation, ValueTransition } from "motion/react"
+import { motion, useAnimation, type ValueTransition } from "motion/react"
+import type * as React from "react"
 
 import PlayButton from "@/components/PlayButton"
 import classNames from "@/utils/classNames"

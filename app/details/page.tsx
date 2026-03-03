@@ -1,9 +1,7 @@
-import * as React from "react"
-
-import { type Metadata } from "next"
-
-import { generateMetadata } from "@/utils/seo"
+import type { Metadata } from "next"
+import type * as React from "react"
 import DetailsGallery from "@/components/DetailsGallery"
+import { generateMetadata } from "@/utils/seo"
 
 export const metadata: Metadata = generateMetadata({
   path: "/details/",

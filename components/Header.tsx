@@ -1,12 +1,11 @@
 "use client"
-import React from "react"
 
 import { motion } from "motion/react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-
-import classNames from "@/utils/classNames"
+import React from "react"
 import useLinkHighlight from "@/hooks/useLinkHighlight"
+import classNames from "@/utils/classNames"
 
 const links = [
   { label: "Features", path: "/" },
@@ -31,58 +30,42 @@ const Header: React.FC = () => {
           damping: 10,
           mass: 1,
         }}
-        className="
-          shadow-card grid w-full grid-cols-3 items-center justify-start gap-3
-          rounded-xl bg-zinc-50 px-4 py-2 text-sm text-zinc-700
-          md:justify-between md:gap-0
-        "
+        className="grid w-full grid-cols-3 items-center justify-start gap-3 rounded-xl bg-zinc-50 px-4 py-2 text-sm text-zinc-700 shadow-card md:justify-between md:gap-0"
       >
-        <div className="mr-auto text-base font-bold">SVG Gallery</div>
-        <div
-          className="
-            order-3 col-span-3 flex justify-center
-            md:order-2 md:col-span-1
-          "
-        >
+        <div className="mr-auto font-bold text-base">SVG Gallery</div>
+        <div className="order-3 col-span-3 flex justify-center md:order-2 md:col-span-1">
           <div
-            className="
-              toggle-group relative flex gap-1 rounded-3xl bg-gray-200 p-1
-            "
+            className="toggle-group relative flex gap-1 rounded-3xl bg-gray-200 p-1"
             ref={wrapperRef}
           >
             <div
               style={{ ...highlightStyles, height: 32 }}
-              className="
-                toggle-selected-item absolute left-0 rounded-3xl bg-white
-                transition-all duration-300
-              "
+              className="toggle-selected-item absolute left-0 rounded-3xl bg-white transition-all duration-300"
             />
-            {links.map((link, index) => (
+            {links.map((link) => (
               <Link
-                key={index}
+                key={link.path}
                 className={classNames(
                   "relative rounded-3xl px-3 py-1.5 font-semibold transition-all hover:text-gray-900",
                   pathname === link.path ? "text-gray-900" : "text-gray-500"
                 )}
                 href={link.path}
-                onClick={() => setActiveTab(index)}
+                onClick={() =>
+                  setActiveTab(links.findIndex((l) => l.path === link.path))
+                }
               >
                 {link.label}
               </Link>
             ))}
           </div>
         </div>
-        <div
-          className="
-            order-2 col-span-2 ml-auto flex gap-0.5
-            md:order-3 md:col-span-1
-          "
-        >
+        <div className="order-2 col-span-2 ml-auto flex gap-0.5 md:order-3 md:col-span-1">
           by{" "}
           <a
             className="font-bold underline"
             target="_blank"
             href="https://nirnejak.com/"
+            rel="noopener"
           >
             Jitendra Nirnejak
           </a>

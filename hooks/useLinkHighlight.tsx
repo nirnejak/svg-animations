@@ -8,7 +8,7 @@ interface HighlightProperties {
 }
 
 const useLinkHighlight = (activeTab: number): HighlightProperties => {
-  const size = useWindowSize()
+  const _size = useWindowSize()
 
   const wrapperRef = React.useRef<HTMLDivElement | null>(null)
 
@@ -30,7 +30,7 @@ const useLinkHighlight = (activeTab: number): HighlightProperties => {
         })
       }
     }
-  }, [activeTab, size])
+  }, [activeTab])
 
   return { wrapperRef, highlightStyles }
 }
