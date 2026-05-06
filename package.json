@@ -20,9 +20,9 @@
     "akar-icons": "^1.9.31",
     "dotenv": "^17.4.2",
     "motion": "^12.38.0",
-    "next": "^16.2.4",
-    "react": "^19.2.5",
-    "react-dom": "^19.2.5",
+    "next": "^16.2.5",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
     "sharp": "^0.34.5"
   },
   "devDependencies": {
@@ -32,8 +32,8 @@
     "@types/react": "^19.2.14",
     "babel-plugin-react-compiler": "^1.0.0",
     "husky": "^9.1.7",
-    "lint-staged": "^16.4.0",
-    "postcss": "^8.5.13",
+    "lint-staged": "^17.0.2",
+    "postcss": "^8.5.14",
     "tailwindcss": "^4.2.4",
     "typescript": "^6.0.3"
   },
