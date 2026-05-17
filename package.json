@@ -32,7 +32,7 @@
     "@types/react": "^19.2.14",
     "babel-plugin-react-compiler": "^1.0.0",
     "husky": "^9.1.7",
-    "lint-staged": "^17.0.4",
+    "lint-staged": "^17.0.5",
     "postcss": "^8.5.14",
     "tailwindcss": "^4.3.0",
     "typescript": "^6.0.3"
