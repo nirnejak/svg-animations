@@ -16,25 +16,25 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@radix-ui/react-tooltip": "^1.2.9",
+    "@radix-ui/react-tooltip": "^1.2.10",
     "akar-icons": "^1.9.31",
     "dotenv": "^17.4.2",
     "motion": "^12.40.0",
-    "next": "^16.2.7",
+    "next": "^16.2.9",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
-    "sharp": "^0.34.5"
+    "sharp": "^0.35.2"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.16",
-    "@tailwindcss/postcss": "^4.3.0",
-    "@types/node": "^25.9.2",
+    "@biomejs/biome": "2.5.0",
+    "@tailwindcss/postcss": "^4.3.1",
+    "@types/node": "^25.9.4",
     "@types/react": "^19.2.17",
     "babel-plugin-react-compiler": "^1.0.0",
     "husky": "^9.1.7",
-    "lint-staged": "^17.0.7",
+    "lint-staged": "^17.0.8",
     "postcss": "^8.5.15",
-    "tailwindcss": "^4.3.0",
+    "tailwindcss": "^4.3.1",
     "typescript": "^6.0.3"
   },
   "lint-staged": {
