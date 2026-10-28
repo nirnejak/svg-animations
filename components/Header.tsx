@@ -30,9 +30,9 @@ const Header: React.FC = () => {
           damping: 10,
           mass: 1,
         }}
-        className="grid w-full grid-cols-3 items-center justify-start gap-3 rounded-xl bg-zinc-50 px-4 py-2 text-sm text-zinc-700 shadow-card md:justify-between md:gap-0"
+        className="shadow-card grid w-full grid-cols-3 items-center justify-start gap-3 rounded-xl bg-zinc-50 px-4 py-2 text-sm text-zinc-700 md:justify-between md:gap-0"
       >
-        <div className="mr-auto font-bold text-base">SVG Gallery</div>
+        <div className="mr-auto text-base font-bold">SVG Gallery</div>
         <div className="order-3 col-span-3 flex justify-center md:order-2 md:col-span-1">
           <div
             className="toggle-group relative flex gap-1 rounded-3xl bg-gray-200 p-1"

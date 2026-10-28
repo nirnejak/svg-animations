@@ -38,7 +38,7 @@ const DetailsGallery: React.FC = () => {
           <motion.div
             key={AnimatedComponent.name}
             variants={gridItemVariants}
-            className="relative rounded-3xl bg-zinc-50 p-20 shadow-card"
+            className="shadow-card relative rounded-3xl bg-zinc-50 p-20"
           >
             <AnimatedComponent />
             <ExpandButton
