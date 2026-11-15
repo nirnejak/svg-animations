@@ -18,23 +18,23 @@
   "dependencies": {
     "@radix-ui/react-tooltip": "^1.4.1",
     "akar-icons": "^1.9.31",
-    "dotenv": "^18.0.9",
-    "motion": "^14.7.1",
-    "next": "^16.4.3",
+    "dotenv": "^18.0.10",
+    "motion": "^14.14.0",
+    "next": "^16.4.6",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "sharp": "^0.35.5"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.6.3",
-    "@tailwindcss/postcss": "^4.3.3",
-    "@types/node": "^26.6.5",
+    "@biomejs/biome": "2.6.8",
+    "@tailwindcss/postcss": "^4.3.5",
+    "@types/node": "^26.6.6",
     "@types/react": "^19.3.0",
     "babel-plugin-react-compiler": "^1.0.0",
     "husky": "^9.1.7",
-    "lint-staged": "^17.6.0",
-    "postcss": "^8.5.32",
-    "tailwindcss": "^4.3.3",
+    "lint-staged": "^17.6.2",
+    "postcss": "^8.5.33",
+    "tailwindcss": "^4.3.5",
     "typescript": "^7.0.2"
   },
   "lint-staged": {
